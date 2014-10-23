@@ -1,6 +1,6 @@
 # The LP
 
-Map subway routes based on albums/playlists.
+Map subway routes to full albums/playlists.
 
 To do:
 
@@ -10,3 +10,7 @@ To do:
 * Fix mouseover events for nodes: currently mouseout nullifies the click event
 * Move d3 link to external resource
 * Fix svg field sizing etc.
+* Better subway line labels? Dynamically added from json?
+* Feed json from google spreadsheet directly
+
+Serve locally to port 8000: python -m SimpleHTTPServer
