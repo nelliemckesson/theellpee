@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <title>Real Madrid vs. Elche (1st half)</title>
+<script src="d3.min.js"></script>
+<script src="d3.rollup.v0.min.js"></script>
+</head>
+<style>
+#tooltip {
+        position: absolute;
+        width: 150px;
+        height: auto;
+        padding: 5px;
+        background-color: white;
+		opacity: 0.8;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+        pointer-events: none;
+}
+
+#tooltip.hidden {
+        display: none;
+}
+
+#tooltip p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: 1;
+}
+
+.label {
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 19px;
+}
+
+.first {
+	margin-left: 64px;
+}
+
+.label p {
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #fff;
+	vertical-align: middle;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.linered {
+	background-color: #FF5333;
+}
+
+.linegreen {
+	background-color: #008B00;
+}
+
+.linepurple {
+	background-color: #B5509C;
+}
+
+.lineblue {
+	background-color: #3A66A7;
+}
+
+.lineorange {
+	background-color: #FF8C00;
+}
+
+.linebrown {
+	background-color: #DC8909;
+}
+
+.lineltgreen {
+	background-color: #0AC92B;
+}
+
+.linegray {
+	background-color: #D8D8D8;
+}
+
+.lineyellow {
+	background-color: #FFD700;
+}
+
+</style>
+
+<body>
+<div id="tooltip" class="hidden">
+        <p><span id="name">100</span></p>
+		<p><span id="number">100</span> train</p>
+</div>
+
+<div class="label linered first">
+	<p>1</p>
+</div>
+
+<div class="label linered">
+	<p>2</p>
+</div>
+
+<div class="label linered">
+	<p>3</p>
+</div>
+
+<div class="label linegreen">
+	<p>4</p>
+</div>
+
+<div class="label linegreen">
+	<p>5</p>
+</div>
+
+<div class="label linegreen">
+	<p>6</p>
+</div>
+
+<div class="label linepurple">
+	<p>7</p>
+</div>
+
+<div class="label lineblue">
+	<p>A</p>
+</div>
+
+<div class="label lineblue">
+	<p>C</p>
+</div>
+
+<div class="label lineblue">
+	<p>E</p>
+</div>
+
+<div class="label lineorange">
+	<p>B</p>
+</div>
+
+<div class="label lineorange">
+	<p>D</p>
+</div>
+
+<div class="label lineorange">
+	<p>F</p>
+</div>
+
+<div class="label lineorange">
+	<p>M</p>
+</div>
+
+<div class="label linebrown">
+	<p>J</p>
+</div>
+
+<div class="label linebrown">
+	<p>Z</p>
+</div>
+
+<div class="label lineltgreen">
+	<p>G</p>
+</div>
+
+<div class="label linegray">
+	<p>L</p>
+</div>
+
+<div class="label lineyellow">
+	<p>N</p>
+</div>
+
+<div class="label lineyellow">
+	<p>Q</p>
+</div>
+
+<div class="label lineyellow">
+	<p>R</p>
+</div>
+
+	<script>
+
+  var scaleh = d3.scale.linear();
+	var scalev = d3.scale.linear();
+	var width = 1150,
+	height = 1200;
+	
+	function fx(d) { return d.x; };
+	function fy(d) { return d.y; };
+	
+	var rollup = d3.rollup()
+    .x(function(d) { return fx(d); })
+    .y(function(d) { return fy(d); });
+
+	//var svg;
+	//http://localhost:8000/
+	// How to convert the data?? google script maybe?
+	
+	
+	
+d3.xml("field.svg", function(xml) {
+	svgdom = document.body.appendChild(xml.documentElement);
+
+  	var svg = d3.select("svg");
+	var defs = d3.select("defs");
+
+	
+	scaleh.domain([0, width]);
+	scaleh.range([0, 1268]);
+	scalev.domain([0, height]);
+	scalev.range([0, 1268]);
+  
+
+d3.json("players.json", function(json) {
+
+	datap = json.nodes;
+
+	//<line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+
+//filters data set for only starting players
+	var datap_start = datap;
+
+	json.nodes = datap_start;
+	var graph = rollup(json);		
+
+	var color = d3.scale.category20();
+
+		// Returns the path for a given data point.
+//function path(d) {
+//  return line(traits.map(function(p) { return [x(p), y[p](d[p])]; }));
+//}
+
+var link = svg.selectAll("link")
+	  .data(graph.links)
+		.enter().append("g")
+		.attr("class", "linkg")
+    
+	svg.selectAll(".linkg")
+		.data(graph.links)
+		.append("path")
+		.attr("class", function(d) {
+			return "link " + "from" + d.source.nodes[0].Number + " to" + d.target.nodes[0].Number + " " + d.links[0].name + " " + d.links[0].fullpath;
+		  })
+		.attr("id" ,function(d) {
+			return "link" + "from" + d.source.nodes[0].Number + "to" + d.target.nodes[0].Number;
+		  })	
+		// determines arc height 
+		//if sx < tx, then line points right
+		//if sx > tx, then line points left 
+		.attr("d", function(d) {
+			var sx = d.source.x * 5, sy = d.source.y,
+			tx = d.target.x * 5, ty = d.target.y,
+			dx = tx - sx, dy = ty - sy,
+			dr = 2 * Math.sqrt(dx * dx + dy * dy);
+			if (sx < tx) {
+				return "M" + (sx+2) + "," + sy + " C" + (sx+40) + "," + sy + " " + (tx-40) + "," + ty + " " + (tx-2) + "," + ty;
+			} else if (sx > tx) {
+				return "M" + (sx-2) + "," + sy + " C" + (sx-40) + "," + sy + " " + (tx+40) + "," + ty + " " + (tx+2) + "," + ty;
+			} else {
+				return "M" + (sx+2) + "," + sy + " C" + (sx+40) + "," + sy + " " + (tx+40) + "," + ty + " " + (tx+2) + "," + ty;
+			}
+		  })
+		.style("stroke", "orange")
+		.style("stroke-width", function(d) { 
+			// I'm removing all the fancy stuff set up in the above code and just giving the stroke a value of 1
+			//return d.value * 2; 
+			return 1; 
+		  })
+
+		.on("mouseover", function(d) {
+
+			d3.selectAll("." + d.links[0].name)
+			.style("stroke", "black")
+			.style("display", "block")
+			.style("stroke-opacity", "1")
+			.style("stroke-width", "2")
+			d3.select(this)
+			.style("stroke", function(m) {
+				var fpath = d.links[0].fullpath
+				var arr = fpath.split("n")
+				arr.pop()
+				arr.shift()
+				for (k = 0; k < arr.length; ++k) {
+					d3.select("#" + "station" + arr[k])
+					.style("fill", "black")
+					/*.append("text")
+			    .text(function(d, i) {   
+						return d.source.nodes[0].name;
+			    })
+			    .attr("x", function(d, i) {
+						return d.x * 5;
+			    })
+			    .attr("y", function(d, i) {
+						return d.y;
+			    })
+			    .style("font-family", "sans-serif")
+			    .style("font-size", "11px")
+			    .style("text-anchor", "middle")
+			    .style("dominant-baseline", "central")
+			    .style("pointer-events", "none")*/
+			    .style("stroke", "white");
+				}
+				return "black";
+		   })
+
+			//surface tooltip with station info
+
+		})
+		.on("mouseout", function(d) {
+
+			d3.selectAll("." + d.links[0].name)
+			.style("stroke", "orange")
+			.style("stroke-opacity", "1")
+			.style("stroke-width", "1")
+			d3.select(this)
+			.style("stroke", function(m) {
+				var fpath = d.links[0].fullpath
+				var arr = fpath.split("n")
+				arr.pop()
+				arr.shift()
+				for (k = 0; k < arr.length; ++k) {
+					d3.select("#" + "station" + arr[k])
+					.style("fill", "white")
+					.style("stroke", "gray");
+				}
+				return "orange";
+			})
+
+		});
+	  
+	var node = svg.selectAll(".node")
+			.data(graph.nodes)
+			.enter().append("g")
+			.append("line")
+			.attr("x1", function(d, i) {
+				return d.x * 5;
+		   })
+		   .attr("y1", function(d, i) {
+				return d.y  - 5;
+		   })
+		   .attr("x2", function(d, i) {
+				return d.x * 5;
+		   })
+		   .attr("y2", function(d, i) {
+				return d.y + 5;
+		   })
+		   .style("stroke", function(d, i) {   
+				return "#" + d.nodes[0].Color;
+		   })
+		   .style("stroke-width", "8");
+
+		svg.selectAll(".node")
+		.data(graph.nodes)
+		.enter().append("g")
+		.attr("class", "node")
+		.style("pointer-events", "all")
+		.append("circle")
+		.attr("id", function(d, i){ return "station" + d.nodes[0].Number})
+		.attr("cx", function(d, i){ 
+			return d.x * 5})
+		.attr("cy", function(d, i){ return d.y})
+		// node circle radius
+		.attr("r", 3)
+		.style("fill", "white")
+		.style("stroke", "grey")
+		.style("stroke-width", "1")	
+		.on("mouseover", function(d) {
+
+			// positions the tooltip relative to the node
+			var xPosition = scaleh(21 + parseFloat(d3.select(this).attr("cx")));
+			var yPosition = scalev(10 + parseFloat(d3.select(this).attr("cy")));
+
+			// select all links in all routes that touch the selected node
+			
+			/*d3.selectAll("[class*='n" + d.nodes[0].Number + "n']")
+			.transition()
+			.duration(10)
+			//ideally, each route will have a different color
+			.style("stroke", "orange")
+			.style("display", "block")
+			.style("stroke-opacity", "1")
+			;
+			
+			d3.select(this).style("fill", "orange");*/
+
+			d3.select("#tooltip")
+			  .style("left", xPosition + "px")
+			  .style("top", yPosition + "px")
+			  .select("#name")
+			  .text(d.nodes[0].name);
+			 
+			d3.select("#tooltip") 
+			  .select("#number")
+			  .text(d.nodes[0].Line);
+
+			d3.select("#tooltip").classed("hidden", false);
+			   
+		})
+		.on("mouseout", function(d) {
+
+			/*d3.selectAll("[class*='n" + d.nodes[0].Number + "n']")
+			.style("stroke", "grey")
+			.style("stroke-opacity", "1");*/
+
+			d3.select("#tooltip").classed("hidden", true);
+			//d3.select(this).style("fill", "white");
+		})
+
+// on click, toggle class of clicked
+// then select all lines with a class that contains the n for all nodes that are clicked
+		.on("click", function(d) {
+
+			d3.select(this).attr("class", function(d) { 
+				myClass = d3.select(this).attr("class")
+				if (myClass != null && myClass.indexOf("activenode") >= 0) {
+					return "inactive";
+				} else if (myClass != null && myClass.indexOf("activenode") <= 0) {
+					return "activenode";
+				} else {
+					return "activenode";
+				}
+			});
+
+			// positions the tooltip relative to the node
+			var xPosition = scaleh(50 + parseFloat(d3.select(this).attr("cx")));
+			var yPosition = scalev(10 + parseFloat(d3.select(this).attr("cy")));
+
+			// for each activenode, store node number in an array
+			// take the array and find routes that contain every value in the array
+
+			var activenodes = [];
+
+			d3.selectAll(".activenode").each( function(d, i){
+			  var nodeId = d3.select(this).attr("id")
+			  var nodeNum = nodeId.replace("station", "")
+			  activenodes.push(nodeNum);
+			});
+
+			d3.selectAll(".linkg").each( function(d, i){
+				var routeArr = []
+				var routeNums = d.links[0].fullpath
+					for (var j = 0; activenodes.length > j; j++) {
+						var nodeN = "n" + activenodes[j] + "n"
+						if (routeNums.indexOf(nodeN) >= 0) {
+							routeArr.push("yes")
+						}
+					}
+				if (routeArr.length > 0 && routeArr.length == activenodes.length) {
+					d3.select(this).attr("data-status", "activeroute")
+				} else {
+					d3.select(this).attr("data-status", "inactive")
+				}
+			});
+
+//need to adjust this to select routes that contain ALL values in activenodes array
+			d3.selectAll('[data-status="activeroute"]').select("path")
+			.transition()
+			.duration(10)
+			//ideally, each route will have a different color
+			.style("stroke", "black")
+			.style("display", "block")
+			.style("stroke-opacity", "1")
+			.style("stroke-width", "2")
+			.style("pointer-events", "none");
+			;
+
+			d3.selectAll('[data-status="inactive"]').select("path")
+			.transition()
+			.duration(10)
+			.style("stroke", "orange")
+			.style("display", "block")
+			.style("stroke-opacity", "1")
+			.style("stroke-width", "1")
+			.style("pointer-events", "all");
+			;
+
+			d3.selectAll(".activenode")
+			.style("fill", "black")
+			.style("stroke", "white");
+
+			d3.selectAll(".inactive")
+			.style("fill", "white")
+			.style("stroke", "gray");
+			
+			d3.select("#tooltip")
+			  .style("left", xPosition + "px")
+			  .style("top", yPosition + "px")
+			  .select("#name")
+			  .text(d.nodes[0].name);
+			 
+			d3.select("#tooltip") 
+			  .select("#number")
+			  .text(d.nodes[0].Line);
+
+			d3.select("#tooltip").classed("hidden", false);
+			   
+		});
+
+svg.selectAll(".node")
+			.data(graph.nodes)
+			.append("text")
+		   .text(function(d, i) {   
+				return d.nodes[0].name.substring(0,5) + "...";
+		   })
+		   .attr("x", function(d, i) {
+				return d.x * 5 + 5;
+		   })
+		   .attr("y", function(d, i) {
+				return d.y;
+		   })
+		   .style("font-family", "monospace")
+		   .style("font-size", "7px")
+		   .style("text-anchor", "right")
+		   .style("dominant-baseline", "central")
+		   .style("stroke", "#999")
+		   .style("stroke-opacity", "0.6")
+		   .style("pointer-events", "none");
+
+		/*svg.selectAll(".node")
+			.data(graph.nodes)
+			.append("line")
+			.attr("x1", function(d, i) {
+				return d.x * 6;
+		   })
+		   .attr("y1", function(d, i) {
+				return d.y * 2  - 10;
+		   })
+		   .attr("x2", function(d, i) {
+				return d.x * 6;
+		   })
+		   .attr("y2", function(d, i) {
+				return d.y * 2 + 10;
+		   })
+		   .style("stroke", function(d, i) {   
+				return "#" + d.nodes[0].Color;
+		   })
+		   .style("stroke-width", "5");
+		 
+		 svg.selectAll("textpaths")
+			.data(graph.links)
+			.enter()
+			.append("text")			
+			.style("font-size", "12px")
+			.attr("class", "texts")
+			.attr("x", "0")
+			.attr("y", "0")
+			.append("textPath")
+			.attr("class", function(d) {
+				return "pathlabel " + "from" + d.source.nodes[0].Number + " to" + d.target.nodes[0].Number;
+			})
+			.attr("xlink:href", function(d) { 
+				return '#' + "link" + "from" + d.source.nodes[0].Number + "to" + d.target.nodes[0].Number 
+			})
+			.text(function(d) { 
+				return d.value;
+			})
+			.attr("startOffset", "40%")
+			.style("stroke", "black")
+			.attr("filter","url(#f3)")
+			.style("fill", "white")
+			.style("font-family", "sans-serif")	
+			.style("display", "none");*/
+
+});
+});
+
+</script>
+	</body>
+</html>

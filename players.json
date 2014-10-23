@@ -1,0 +1,6662 @@
+{"nodes":[
+  {
+    "name":"Van Cortlandt Park – 242nd St     ",
+    "Number":1,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":10
+  },
+  {
+    "name":"238th St",
+    "Number":2,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":20
+  },
+  {
+    "name":"231st St",
+    "Number":3,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":30
+  },
+  {
+    "name":"Marble Hill – 225th St",
+    "Number":4,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":40
+  },
+  {
+    "name":"215th St      ",
+    "Number":5,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":50
+  },
+  {
+    "name":"207th St",
+    "Number":6,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":60
+  },
+  {
+    "name":"Dyckman St",
+    "Number":7,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":70
+  },
+  {
+    "name":"191st St      ",
+    "Number":8,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":80
+  },
+  {
+    "name":"181st St",
+    "Number":9,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":90
+  },
+  {
+    "name":"168th St",
+    "Number":10,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":100
+  },
+  {
+    "name":"157th St      ",
+    "Number":11,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":110
+  },
+  {
+    "name":"145th St      ",
+    "Number":12,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":120
+  },
+  {
+    "name":"137th St – City College",
+    "Number":13,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":130
+  },
+  {
+    "name":"125th St      ",
+    "Number":14,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":140
+  },
+  {
+    "name":"116th St – Columbia University",
+    "Number":15,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":150
+  },
+  {
+    "name":"Cathedral Parkway – 110th St      ",
+    "Number":16,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":160
+  },
+  {
+    "name":"103rd St      ",
+    "Number":17,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":170
+  },
+  {
+    "name":"96th St",
+    "Number":18,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":180
+  },
+  {
+    "name":"86th St",
+    "Number":19,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":190
+  },
+  {
+    "name":"79th St",
+    "Number":20,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":200
+  },
+  {
+    "name":"72nd St",
+    "Number":21,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":210
+  },
+  {
+    "name":"66th St – Lincoln Center",
+    "Number":22,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":220
+  },
+  {
+    "name":"59th St – Columbus Circle",
+    "Number":23,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":230
+  },
+  {
+    "name":"50th St",
+    "Number":24,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":240
+  },
+  {
+    "name":"Times Square – 42nd St",
+    "Number":25,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":250
+  },
+  {
+    "name":"34th St – Penn Station",
+    "Number":26,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":260
+  },
+  {
+    "name":"28th St",
+    "Number":27,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":270
+  },
+  {
+    "name":"23rd St",
+    "Number":28,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":280
+  },
+  {
+    "name":"18th St",
+    "Number":29,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":290
+  },
+  {
+    "name":"14th St",
+    "Number":30,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":300
+  },
+  {
+    "name":"Christopher St – Sheridan Square",
+    "Number":31,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":310
+  },
+  {
+    "name":"Houston St",
+    "Number":32,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":320
+  },
+  {
+    "name":"Canal St",
+    "Number":33,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":330
+  },
+  {
+    "name":"Franklin St",
+    "Number":34,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":340
+  },
+  {
+    "name":"Chambers St",
+    "Number":35,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":350
+  },
+  {
+    "name":"Cortlandt St",
+    "Number":36,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":360
+  },
+  {
+    "name":"Rector St     ",
+    "Number":37,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":370
+  },
+  {
+    "name":"South Ferry",
+    "Number":38,
+    "Line":"1",
+    "Color":"FF5333",
+    "x":10,
+    "y":380
+  },
+  {
+    "name":"Wakefield – 241st Street",
+    "Number":39,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":10
+  },
+  {
+    "name":"Nereid Avenue",
+    "Number":40,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":20
+  },
+  {
+    "name":"233rd Street",
+    "Number":41,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":30
+  },
+  {
+    "name":"225th Street",
+    "Number":42,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":40
+  },
+  {
+    "name":"219th Street",
+    "Number":43,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":50
+  },
+  {
+    "name":"Gun Hill Road",
+    "Number":44,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":60
+  },
+  {
+    "name":"Burke Avenue",
+    "Number":45,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":70
+  },
+  {
+    "name":"Allerton Avenue",
+    "Number":46,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":80
+  },
+  {
+    "name":"Pelham Parkway",
+    "Number":47,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":90
+  },
+  {
+    "name":"Bronx Park East",
+    "Number":48,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":100
+  },
+  {
+    "name":"East 180th Street",
+    "Number":49,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":110
+  },
+  {
+    "name":"West Farms Square – East Tremont Avenue",
+    "Number":50,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":120
+  },
+  {
+    "name":"174th Street",
+    "Number":51,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":130
+  },
+  {
+    "name":"Freeman Street",
+    "Number":52,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":140
+  },
+  {
+    "name":"Simpson Street",
+    "Number":53,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":150
+  },
+  {
+    "name":"Intervale Avenue",
+    "Number":54,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":160
+  },
+  {
+    "name":"Prospect Avenue",
+    "Number":55,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":170
+  },
+  {
+    "name":"Jackson Avenue",
+    "Number":56,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":180
+  },
+  {
+    "name":"Third Avenue – 149th Street",
+    "Number":57,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":190
+  },
+  {
+    "name":"149th Street – Grand Concourse",
+    "Number":58,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":200
+  },
+  {
+    "name":"135th Street",
+    "Number":59,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":210
+  },
+  {
+    "name":"125th Street",
+    "Number":60,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":220
+  },
+  {
+    "name":"116th Street",
+    "Number":61,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":230
+  },
+  {
+    "name":"Central Park North – 110th Street",
+    "Number":62,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":240
+  },
+  {
+    "name":"96th Street",
+    "Number":63,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":250
+  },
+  {
+    "name":"86th Street",
+    "Number":64,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":260
+  },
+  {
+    "name":"79th Street",
+    "Number":65,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":270
+  },
+  {
+    "name":"72nd Street",
+    "Number":66,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":280
+  },
+  {
+    "name":"66th Street – Lincoln Center",
+    "Number":67,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":290
+  },
+  {
+    "name":"59th Street – Columbus Circle",
+    "Number":68,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":300
+  },
+  {
+    "name":"50th Street",
+    "Number":69,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":310
+  },
+  {
+    "name":"Times Square – 42nd Street",
+    "Number":70,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":320
+  },
+  {
+    "name":"34th Street – Penn Station",
+    "Number":71,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":330
+  },
+  {
+    "name":"28th Street",
+    "Number":72,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":340
+  },
+  {
+    "name":"23rd Street",
+    "Number":73,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":350
+  },
+  {
+    "name":"18th Street",
+    "Number":74,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":360
+  },
+  {
+    "name":"14th Street",
+    "Number":75,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":370
+  },
+  {
+    "name":"Christopher Street – Sheridan Square",
+    "Number":76,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":380
+  },
+  {
+    "name":"Houston Street",
+    "Number":77,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":390
+  },
+  {
+    "name":"Canal Street",
+    "Number":78,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":400
+  },
+  {
+    "name":"Franklin Street",
+    "Number":79,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":410
+  },
+  {
+    "name":"Chambers Street",
+    "Number":80,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":420
+  },
+  {
+    "name":"Park Place",
+    "Number":81,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":430
+  },
+  {
+    "name":"Fulton Street",
+    "Number":82,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":440
+  },
+  {
+    "name":"Wall Street",
+    "Number":83,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":450
+  },
+  {
+    "name":"Clark Street",
+    "Number":84,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":460
+  },
+  {
+    "name":"Borough Hall",
+    "Number":85,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":470
+  },
+  {
+    "name":"Hoyt Street",
+    "Number":86,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":480
+  },
+  {
+    "name":"Nevins Street",
+    "Number":87,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":490
+  },
+  {
+    "name":"Atlantic Avenue – Barclays Center",
+    "Number":88,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":500
+  },
+  {
+    "name":"Bergen Street",
+    "Number":89,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":510
+  },
+  {
+    "name":"Grand Army Plaza",
+    "Number":90,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":520
+  },
+  {
+    "name":"Eastern Parkway – Brooklyn Museum",
+    "Number":91,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":530
+  },
+  {
+    "name":"Franklin Avenue",
+    "Number":92,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":540
+  },
+  {
+    "name":"President Street",
+    "Number":93,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":550
+  },
+  {
+    "name":"Sterling Street",
+    "Number":94,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":560
+  },
+  {
+    "name":"Winthrop Street",
+    "Number":95,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":570
+  },
+  {
+    "name":"Church Avenue",
+    "Number":96,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":580
+  },
+  {
+    "name":"Beverly Road",
+    "Number":97,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":590
+  },
+  {
+    "name":"Newkirk Avenue",
+    "Number":98,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":600
+  },
+  {
+    "name":"Flatbush Avenue – Brooklyn College",
+    "Number":99,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":610
+  },
+  {
+    "name":"Nostrand Avenue",
+    "Number":100,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":620
+  },
+  {
+    "name":"Kingston Avenue",
+    "Number":101,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":630
+  },
+  {
+    "name":"Crown Heights – Utica Avenue",
+    "Number":102,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":640
+  },
+  {
+    "name":"Sutter Avenue – Rutland Road",
+    "Number":103,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":650
+  },
+  {
+    "name":"Saratoga Avenue",
+    "Number":104,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":660
+  },
+  {
+    "name":"Rockaway Avenue",
+    "Number":105,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":670
+  },
+  {
+    "name":"Junius Street",
+    "Number":106,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":680
+  },
+  {
+    "name":"Pennsylvania Avenue",
+    "Number":107,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":690
+  },
+  {
+    "name":"Van Siclen Avenue",
+    "Number":108,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":700
+  },
+  {
+    "name":"New Lots Avenue",
+    "Number":109,
+    "Line":"2",
+    "Color":"FF5333",
+    "x":20,
+    "y":710
+  },
+  {
+    "name":"Harlem – 148th Street",
+    "Number":110,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":10
+  },
+  {
+    "name":"145th Street",
+    "Number":111,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":20
+  },
+  {
+    "name":"135th Street",
+    "Number":112,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":30
+  },
+  {
+    "name":"125th Street",
+    "Number":113,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":40
+  },
+  {
+    "name":"116th Street",
+    "Number":114,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":50
+  },
+  {
+    "name":"Central Park North – 110th Street",
+    "Number":115,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":60
+  },
+  {
+    "name":"96th Street",
+    "Number":116,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":70
+  },
+  {
+    "name":"72nd Street",
+    "Number":117,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":80
+  },
+  {
+    "name":"Times Square – 42nd Street",
+    "Number":118,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":90
+  },
+  {
+    "name":"34th Street – Penn Station",
+    "Number":119,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":100
+  },
+  {
+    "name":"14th Street",
+    "Number":120,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":110
+  },
+  {
+    "name":"Chambers Street",
+    "Number":121,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":120
+  },
+  {
+    "name":"Park Place",
+    "Number":122,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":130
+  },
+  {
+    "name":"Fulton Street",
+    "Number":123,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":140
+  },
+  {
+    "name":"Wall Street",
+    "Number":124,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":150
+  },
+  {
+    "name":"Clark Street",
+    "Number":125,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":160
+  },
+  {
+    "name":"Borough Hall",
+    "Number":126,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":170
+  },
+  {
+    "name":"Hoyt Street",
+    "Number":127,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":180
+  },
+  {
+    "name":"Nevins Street",
+    "Number":128,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":190
+  },
+  {
+    "name":"Atlantic Avenue – Barclays Center",
+    "Number":129,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":200
+  },
+  {
+    "name":"Bergen Street",
+    "Number":130,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":210
+  },
+  {
+    "name":"Grand Army Plaza",
+    "Number":131,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":220
+  },
+  {
+    "name":"Eastern Parkway – Brooklyn Museum",
+    "Number":132,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":230
+  },
+  {
+    "name":"Franklin Avenue",
+    "Number":133,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":240
+  },
+  {
+    "name":"Nostrand Avenue",
+    "Number":134,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":250
+  },
+  {
+    "name":"Kingston Avenue",
+    "Number":135,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":260
+  },
+  {
+    "name":"Crown Heights – Utica Avenue",
+    "Number":136,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":270
+  },
+  {
+    "name":"Sutter Avenue – Rutland Road",
+    "Number":137,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":280
+  },
+  {
+    "name":"Saratoga Avenue",
+    "Number":138,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":290
+  },
+  {
+    "name":"Rockaway Avenue",
+    "Number":139,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":300
+  },
+  {
+    "name":"Junius Street",
+    "Number":140,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":310
+  },
+  {
+    "name":"Pennsylvania Avenue",
+    "Number":141,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":320
+  },
+  {
+    "name":"Van Siclen Avenue",
+    "Number":142,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":330
+  },
+  {
+    "name":"New Lots Avenue",
+    "Number":143,
+    "Line":"3",
+    "Color":"FF5333",
+    "x":30,
+    "y":340
+  },
+  {
+    "name":"Woodlawn",
+    "Number":144,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":10
+  },
+  {
+    "name":"Mosholu Parkway",
+    "Number":145,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":20
+  },
+  {
+    "name":"Bedford Park Boulevard – Lehman College",
+    "Number":146,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":30
+  },
+  {
+    "name":"Kingsbridge Road",
+    "Number":147,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":40
+  },
+  {
+    "name":"Fordham Road",
+    "Number":148,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":50
+  },
+  {
+    "name":"183rd Street",
+    "Number":149,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":60
+  },
+  {
+    "name":"Burnside Avenue",
+    "Number":150,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":70
+  },
+  {
+    "name":"176th Street",
+    "Number":151,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":80
+  },
+  {
+    "name":"Mount Eden Avenue",
+    "Number":152,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":90
+  },
+  {
+    "name":"170th Street",
+    "Number":153,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":100
+  },
+  {
+    "name":"167th Street",
+    "Number":154,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":110
+  },
+  {
+    "name":"161st Street – Yankee Stadium",
+    "Number":155,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":120
+  },
+  {
+    "name":"149th Street – Grand Concourse",
+    "Number":156,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":130
+  },
+  {
+    "name":"138th Street – Grand Concourse",
+    "Number":157,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":140
+  },
+  {
+    "name":"125th Street",
+    "Number":158,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":150
+  },
+  {
+    "name":"116th Street",
+    "Number":159,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":160
+  },
+  {
+    "name":"110th Street",
+    "Number":160,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":170
+  },
+  {
+    "name":"103rd Street",
+    "Number":161,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":180
+  },
+  {
+    "name":"96th Street",
+    "Number":162,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":190
+  },
+  {
+    "name":"86th Street",
+    "Number":163,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":200
+  },
+  {
+    "name":"77th Street",
+    "Number":164,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":210
+  },
+  {
+    "name":"68th Street – Hunter College",
+    "Number":165,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":220
+  },
+  {
+    "name":"59th Street",
+    "Number":166,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":230
+  },
+  {
+    "name":"51st Street",
+    "Number":167,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":240
+  },
+  {
+    "name":"Grand Central – 42nd Street",
+    "Number":168,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":250
+  },
+  {
+    "name":"33rd Street",
+    "Number":169,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":260
+  },
+  {
+    "name":"28th Street",
+    "Number":170,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":270
+  },
+  {
+    "name":"23rd Street",
+    "Number":171,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":280
+  },
+  {
+    "name":"14th Street – Union Square",
+    "Number":172,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":290
+  },
+  {
+    "name":"Astor Place",
+    "Number":173,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":300
+  },
+  {
+    "name":"Bleecker Street",
+    "Number":174,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":310
+  },
+  {
+    "name":"Spring Street",
+    "Number":175,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":320
+  },
+  {
+    "name":"Canal Street",
+    "Number":176,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":330
+  },
+  {
+    "name":"Brooklyn Bridge – City Hall",
+    "Number":177,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":340
+  },
+  {
+    "name":"Fulton Street",
+    "Number":178,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":350
+  },
+  {
+    "name":"Wall Street",
+    "Number":179,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":360
+  },
+  {
+    "name":"Bowling Green",
+    "Number":180,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":370
+  },
+  {
+    "name":"Borough Hall",
+    "Number":181,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":380
+  },
+  {
+    "name":"Nevins Street",
+    "Number":182,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":390
+  },
+  {
+    "name":"Atlantic Avenue – Barclays Center",
+    "Number":183,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":400
+  },
+  {
+    "name":"Bergen Street",
+    "Number":184,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":410
+  },
+  {
+    "name":"Grand Army Plaza",
+    "Number":185,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":420
+  },
+  {
+    "name":"Eastern Parkway – Brooklyn Museum",
+    "Number":186,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":430
+  },
+  {
+    "name":"Franklin Avenue",
+    "Number":187,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":440
+  },
+  {
+    "name":"Nostrand Avenue",
+    "Number":188,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":450
+  },
+  {
+    "name":"Kingston Avenue",
+    "Number":189,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":460
+  },
+  {
+    "name":"Crown Heights – Utica Avenue",
+    "Number":190,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":470
+  },
+  {
+    "name":"Sutter Avenue – Rutland Road",
+    "Number":191,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":480
+  },
+  {
+    "name":"Saratoga Avenue",
+    "Number":192,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":490
+  },
+  {
+    "name":"Rockaway Avenue",
+    "Number":193,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":500
+  },
+  {
+    "name":"Junius Street",
+    "Number":194,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":510
+  },
+  {
+    "name":"Pennsylvania Avenue",
+    "Number":195,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":520
+  },
+  {
+    "name":"Van Siclen Avenue",
+    "Number":196,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":530
+  },
+  {
+    "name":"New Lots Avenue",
+    "Number":197,
+    "Line":"4",
+    "Color":"008B00",
+    "x":40,
+    "y":540
+  },
+  {
+    "name":"Eastchester – Dyre Avenue",
+    "Number":198,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":10
+  },
+  {
+    "name":"Baychester Avenue",
+    "Number":199,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":20
+  },
+  {
+    "name":"Gun Hill Road",
+    "Number":200,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":30
+  },
+  {
+    "name":"Pelham Parkway",
+    "Number":201,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":40
+  },
+  {
+    "name":"Morris Park",
+    "Number":202,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":50
+  },
+  {
+    "name":"Nereid Avenue",
+    "Number":203,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":60
+  },
+  {
+    "name":"233rd Street",
+    "Number":204,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":70
+  },
+  {
+    "name":"225th Street",
+    "Number":205,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":80
+  },
+  {
+    "name":"219th Street",
+    "Number":206,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":90
+  },
+  {
+    "name":"Gun Hill Road",
+    "Number":207,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":100
+  },
+  {
+    "name":"Burke Avenue",
+    "Number":208,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":110
+  },
+  {
+    "name":"Allerton Avenue",
+    "Number":209,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":120
+  },
+  {
+    "name":"Pelham Parkway",
+    "Number":210,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":130
+  },
+  {
+    "name":"Bronx Park East",
+    "Number":211,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":140
+  },
+  {
+    "name":"East 180th Street",
+    "Number":212,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":150
+  },
+  {
+    "name":"West Farms Square – East Tremont Avenue",
+    "Number":213,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":160
+  },
+  {
+    "name":"174th Street",
+    "Number":214,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":170
+  },
+  {
+    "name":"Freeman Street",
+    "Number":215,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":180
+  },
+  {
+    "name":"Simpson Street",
+    "Number":216,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":190
+  },
+  {
+    "name":"Intervale Avenue",
+    "Number":217,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":200
+  },
+  {
+    "name":"Prospect Avenue",
+    "Number":218,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":210
+  },
+  {
+    "name":"Jackson Avenue",
+    "Number":219,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":220
+  },
+  {
+    "name":"Third Avenue – 149th Street",
+    "Number":220,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":230
+  },
+  {
+    "name":"149th Street – Grand Concourse",
+    "Number":221,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":240
+  },
+  {
+    "name":"138th Street – Grand Concourse",
+    "Number":222,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":250
+  },
+  {
+    "name":"125th Street",
+    "Number":223,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":260
+  },
+  {
+    "name":"86th Street",
+    "Number":224,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":270
+  },
+  {
+    "name":"59th Street",
+    "Number":225,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":280
+  },
+  {
+    "name":"Grand Central – 42nd Street",
+    "Number":226,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":290
+  },
+  {
+    "name":"14th Street – Union Square",
+    "Number":227,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":300
+  },
+  {
+    "name":"Brooklyn Bridge – City Hall",
+    "Number":228,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":310
+  },
+  {
+    "name":"Fulton Street",
+    "Number":229,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":320
+  },
+  {
+    "name":"Wall Street",
+    "Number":230,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":330
+  },
+  {
+    "name":"Bowling Green",
+    "Number":231,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":340
+  },
+  {
+    "name":"Borough Hall",
+    "Number":232,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":350
+  },
+  {
+    "name":"Nevins Street",
+    "Number":233,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":360
+  },
+  {
+    "name":"Atlantic Avenue – Barclays Center",
+    "Number":234,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":370
+  },
+  {
+    "name":"Franklin Avenue",
+    "Number":235,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":380
+  },
+  {
+    "name":"President Street",
+    "Number":236,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":390
+  },
+  {
+    "name":"Sterling Street",
+    "Number":237,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":400
+  },
+  {
+    "name":"Winthrop Street",
+    "Number":238,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":410
+  },
+  {
+    "name":"Church Avenue",
+    "Number":239,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":420
+  },
+  {
+    "name":"Beverly Road",
+    "Number":240,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":430
+  },
+  {
+    "name":"Newkirk Avenue",
+    "Number":241,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":440
+  },
+  {
+    "name":"Flatbush Avenue – Brooklyn College",
+    "Number":242,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":450
+  },
+  {
+    "name":"Crown Heights – Utica Avenue",
+    "Number":243,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":460
+  },
+  {
+    "name":"Sutter Avenue – Rutland Road",
+    "Number":244,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":470
+  },
+  {
+    "name":"Saratoga Avenue",
+    "Number":245,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":480
+  },
+  {
+    "name":"Rockaway Avenue",
+    "Number":246,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":490
+  },
+  {
+    "name":"Junius Street",
+    "Number":247,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":500
+  },
+  {
+    "name":"Pennsylvania Avenue",
+    "Number":248,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":510
+  },
+  {
+    "name":"Van Siclen Avenue",
+    "Number":249,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":520
+  },
+  {
+    "name":"New Lots Avenue",
+    "Number":250,
+    "Line":"5",
+    "Color":"008B00",
+    "x":50,
+    "y":530
+  },
+  {
+    "name":"Pelham Bay Park",
+    "Number":251,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":10
+  },
+  {
+    "name":"Buhre Avenue",
+    "Number":252,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":20
+  },
+  {
+    "name":"Middletown Road",
+    "Number":253,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":30
+  },
+  {
+    "name":"Westchester Square – East Tremont Avenue",
+    "Number":254,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":40
+  },
+  {
+    "name":"Zerega Avenue",
+    "Number":255,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":50
+  },
+  {
+    "name":"Castle Hill Avenue",
+    "Number":256,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":60
+  },
+  {
+    "name":"Parkchester",
+    "Number":257,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":70
+  },
+  {
+    "name":"St. Lawrence Avenue",
+    "Number":258,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":80
+  },
+  {
+    "name":"Morrison Avenue – Soundview",
+    "Number":259,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":90
+  },
+  {
+    "name":"Elder Avenue",
+    "Number":260,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":100
+  },
+  {
+    "name":"Whitlock Avenue",
+    "Number":261,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":110
+  },
+  {
+    "name":"Hunts Point Avenue",
+    "Number":262,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":120
+  },
+  {
+    "name":"Longwood Avenue",
+    "Number":263,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":130
+  },
+  {
+    "name":"East 149th Street",
+    "Number":264,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":140
+  },
+  {
+    "name":"East 143rd Street – St. Mary's Street",
+    "Number":265,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":150
+  },
+  {
+    "name":"Cypress Avenue",
+    "Number":266,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":160
+  },
+  {
+    "name":"Brook Avenue",
+    "Number":267,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":170
+  },
+  {
+    "name":"Third Avenue – 138th Street",
+    "Number":268,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":180
+  },
+  {
+    "name":"125th Street",
+    "Number":269,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":190
+  },
+  {
+    "name":"116th Street",
+    "Number":270,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":200
+  },
+  {
+    "name":"110th Street",
+    "Number":271,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":210
+  },
+  {
+    "name":"103rd Street",
+    "Number":272,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":220
+  },
+  {
+    "name":"96th Street",
+    "Number":273,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":230
+  },
+  {
+    "name":"86th Street",
+    "Number":274,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":240
+  },
+  {
+    "name":"77th Street",
+    "Number":275,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":250
+  },
+  {
+    "name":"68th Street – Hunter College",
+    "Number":276,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":260
+  },
+  {
+    "name":"59th Street",
+    "Number":277,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":270
+  },
+  {
+    "name":"51st Street",
+    "Number":278,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":280
+  },
+  {
+    "name":"Grand Central – 42nd Street",
+    "Number":279,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":290
+  },
+  {
+    "name":"33rd Street",
+    "Number":280,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":300
+  },
+  {
+    "name":"28th Street",
+    "Number":281,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":310
+  },
+  {
+    "name":"23rd Street",
+    "Number":282,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":320
+  },
+  {
+    "name":"14th Street – Union Square",
+    "Number":283,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":330
+  },
+  {
+    "name":"Astor Place",
+    "Number":284,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":340
+  },
+  {
+    "name":"Bleecker Street",
+    "Number":285,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":350
+  },
+  {
+    "name":"Spring Street",
+    "Number":286,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":360
+  },
+  {
+    "name":"Canal Street",
+    "Number":287,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":370
+  },
+  {
+    "name":"Brooklyn Bridge – City Hall",
+    "Number":288,
+    "Line":"6",
+    "Color":"008B00",
+    "x":60,
+    "y":380
+  },
+  {
+    "name":"Flushing – Main Street",
+    "Number":289,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":10
+  },
+  {
+    "name":"Mets – Willets Point",
+    "Number":290,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":20
+  },
+  {
+    "name":"111th Street",
+    "Number":291,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":30
+  },
+  {
+    "name":"103rd Street – Corona Plaza",
+    "Number":292,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":40
+  },
+  {
+    "name":"Junction Boulevard",
+    "Number":293,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":50
+  },
+  {
+    "name":"90th Street – Elmhurst Avenue",
+    "Number":294,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":60
+  },
+  {
+    "name":"82nd Street – Jackson Heights",
+    "Number":295,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":70
+  },
+  {
+    "name":"74th Street – Broadway",
+    "Number":296,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":80
+  },
+  {
+    "name":"69th Street",
+    "Number":297,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":90
+  },
+  {
+    "name":"61st Street – Woodside",
+    "Number":298,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":100
+  },
+  {
+    "name":"52nd Street",
+    "Number":299,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":110
+  },
+  {
+    "name":"46th Street – Bliss Street",
+    "Number":300,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":120
+  },
+  {
+    "name":"40th Street – Lowery Street",
+    "Number":301,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":130
+  },
+  {
+    "name":"33rd Street – Rawson Street",
+    "Number":302,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":140
+  },
+  {
+    "name":"Queensboro Plaza",
+    "Number":303,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":150
+  },
+  {
+    "name":"Court Square",
+    "Number":304,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":160
+  },
+  {
+    "name":"Hunters Point Avenue",
+    "Number":305,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":170
+  },
+  {
+    "name":"Vernon Boulevard – Jackson Avenue",
+    "Number":306,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":180
+  },
+  {
+    "name":"Grand Central",
+    "Number":307,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":190
+  },
+  {
+    "name":"Fifth Avenue",
+    "Number":308,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":200
+  },
+  {
+    "name":"Times Square",
+    "Number":309,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":210
+  },
+  {
+    "name":"34th Street – Hudson Yards",
+    "Number":310,
+    "Line":"7",
+    "Color":"B5509C",
+    "x":70,
+    "y":220
+  },
+  {
+    "name":"Inwood – 207th Street",
+    "Number":311,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":10
+  },
+  {
+    "name":"Dyckman Street",
+    "Number":312,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":20
+  },
+  {
+    "name":"190th Street",
+    "Number":313,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":30
+  },
+  {
+    "name":"181st Street",
+    "Number":314,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":40
+  },
+  {
+    "name":"175th Street",
+    "Number":315,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":50
+  },
+  {
+    "name":"168th Street",
+    "Number":316,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":60
+  },
+  {
+    "name":"163rd Street – Amsterdam Avenue",
+    "Number":317,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":70
+  },
+  {
+    "name":"155th Street",
+    "Number":318,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":80
+  },
+  {
+    "name":"145th Street",
+    "Number":319,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":90
+  },
+  {
+    "name":"135th Street",
+    "Number":320,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":100
+  },
+  {
+    "name":"125th Street",
+    "Number":321,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":110
+  },
+  {
+    "name":"116th Street",
+    "Number":322,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":120
+  },
+  {
+    "name":"Cathedral Parkway – 110th Street",
+    "Number":323,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":130
+  },
+  {
+    "name":"103rd Street",
+    "Number":324,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":140
+  },
+  {
+    "name":"96th Street",
+    "Number":325,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":150
+  },
+  {
+    "name":"86th Street",
+    "Number":326,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":160
+  },
+  {
+    "name":"81st Street – Museum of Natural History",
+    "Number":327,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":170
+  },
+  {
+    "name":"72nd Street",
+    "Number":328,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":180
+  },
+  {
+    "name":"59th Street – Columbus Circle",
+    "Number":329,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":190
+  },
+  {
+    "name":"50th Street",
+    "Number":330,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":200
+  },
+  {
+    "name":"42nd Street – Port Authority Bus Terminal",
+    "Number":331,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":210
+  },
+  {
+    "name":"34th Street – Penn Station",
+    "Number":332,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":220
+  },
+  {
+    "name":"23rd Street",
+    "Number":333,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":230
+  },
+  {
+    "name":"14th Street",
+    "Number":334,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":240
+  },
+  {
+    "name":"West Fourth Street – Washington Square",
+    "Number":335,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":250
+  },
+  {
+    "name":"Spring Street",
+    "Number":336,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":260
+  },
+  {
+    "name":"Canal Street",
+    "Number":337,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":270
+  },
+  {
+    "name":"Chambers Street",
+    "Number":338,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":280
+  },
+  {
+    "name":"Fulton Street",
+    "Number":339,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":290
+  },
+  {
+    "name":"High Street",
+    "Number":340,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":300
+  },
+  {
+    "name":"Jay Street – MetroTech",
+    "Number":341,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":310
+  },
+  {
+    "name":"Hoyt–Schermerhorn Streets",
+    "Number":342,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":320
+  },
+  {
+    "name":"Lafayette Avenue",
+    "Number":343,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":330
+  },
+  {
+    "name":"Clinton–Washington Avenues",
+    "Number":344,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":340
+  },
+  {
+    "name":"Franklin Avenue",
+    "Number":345,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":350
+  },
+  {
+    "name":"Nostrand Avenue",
+    "Number":346,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":360
+  },
+  {
+    "name":"Kingston–Throop Avenues",
+    "Number":347,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":370
+  },
+  {
+    "name":"Utica Avenue",
+    "Number":348,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":380
+  },
+  {
+    "name":"Ralph Avenue",
+    "Number":349,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":390
+  },
+  {
+    "name":"Rockaway Avenue",
+    "Number":350,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":400
+  },
+  {
+    "name":"Broadway Junction",
+    "Number":351,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":410
+  },
+  {
+    "name":"Liberty Avenue",
+    "Number":352,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":420
+  },
+  {
+    "name":"Van Siclen Avenue",
+    "Number":353,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":430
+  },
+  {
+    "name":"Shepherd Avenue",
+    "Number":354,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":440
+  },
+  {
+    "name":"Euclid Avenue",
+    "Number":355,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":450
+  },
+  {
+    "name":"Grant Avenue",
+    "Number":356,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":460
+  },
+  {
+    "name":"80th Street",
+    "Number":357,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":470
+  },
+  {
+    "name":"88th Street",
+    "Number":358,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":480
+  },
+  {
+    "name":"Rockaway Boulevard",
+    "Number":359,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":490
+  },
+  {
+    "name":"104th Street",
+    "Number":360,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":500
+  },
+  {
+    "name":"111th Street",
+    "Number":361,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":510
+  },
+  {
+    "name":"Ozone Park – Lefferts Boulevard",
+    "Number":362,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":520
+  },
+  {
+    "name":"Aqueduct Racetrack",
+    "Number":363,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":530
+  },
+  {
+    "name":"Aqueduct – North Conduit Avenue",
+    "Number":364,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":540
+  },
+  {
+    "name":"Howard Beach – JFK Airport",
+    "Number":365,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":550
+  },
+  {
+    "name":"Broad Channel",
+    "Number":366,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":560
+  },
+  {
+    "name":"Beach 67th Street",
+    "Number":367,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":570
+  },
+  {
+    "name":"Beach 60th Street",
+    "Number":368,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":580
+  },
+  {
+    "name":"Beach 44th Street",
+    "Number":369,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":590
+  },
+  {
+    "name":"Beach 36th Street",
+    "Number":370,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":600
+  },
+  {
+    "name":"Beach 25th Street",
+    "Number":371,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":610
+  },
+  {
+    "name":"Far Rockaway – Mott Avenue",
+    "Number":372,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":620
+  },
+  {
+    "name":"Beach 90th Street",
+    "Number":373,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":630
+  },
+  {
+    "name":"Beach 98th Street",
+    "Number":374,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":640
+  },
+  {
+    "name":"Beach 105th Street",
+    "Number":375,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":650
+  },
+  {
+    "name":"Rockaway Park – Beach 116th Street",
+    "Number":376,
+    "Line":"A",
+    "Color":"3A66A7",
+    "x":80,
+    "y":660
+  },
+  {
+    "name":"168th Street",
+    "Number":377,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":10
+  },
+  {
+    "name":"163rd Street – Amsterdam Avenue",
+    "Number":378,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":20
+  },
+  {
+    "name":"155th Street",
+    "Number":379,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":30
+  },
+  {
+    "name":"145th Street",
+    "Number":380,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":40
+  },
+  {
+    "name":"135th Street",
+    "Number":381,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":50
+  },
+  {
+    "name":"125th Street",
+    "Number":382,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":60
+  },
+  {
+    "name":"116th Street",
+    "Number":383,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":70
+  },
+  {
+    "name":"Cathedral Parkway – 110th Street",
+    "Number":384,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":80
+  },
+  {
+    "name":"103rd Street",
+    "Number":385,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":90
+  },
+  {
+    "name":"96th Street",
+    "Number":386,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":100
+  },
+  {
+    "name":"86th Street",
+    "Number":387,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":110
+  },
+  {
+    "name":"81st Street – Museum of Natural History",
+    "Number":388,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":120
+  },
+  {
+    "name":"72nd Street",
+    "Number":389,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":130
+  },
+  {
+    "name":"59th Street – Columbus Circle",
+    "Number":390,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":140
+  },
+  {
+    "name":"50th Street",
+    "Number":391,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":150
+  },
+  {
+    "name":"42nd Street – Port Authority Bus Terminal",
+    "Number":392,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":160
+  },
+  {
+    "name":"34th Street – Penn Station",
+    "Number":393,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":170
+  },
+  {
+    "name":"23rd Street",
+    "Number":394,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":180
+  },
+  {
+    "name":"14th Street",
+    "Number":395,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":190
+  },
+  {
+    "name":"West Fourth Street – Washington Square",
+    "Number":396,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":200
+  },
+  {
+    "name":"Spring Street",
+    "Number":397,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":210
+  },
+  {
+    "name":"Canal Street",
+    "Number":398,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":220
+  },
+  {
+    "name":"Chambers Street",
+    "Number":399,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":230
+  },
+  {
+    "name":"Fulton Street",
+    "Number":400,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":240
+  },
+  {
+    "name":"High Street",
+    "Number":401,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":250
+  },
+  {
+    "name":"Jay Street – MetroTech",
+    "Number":402,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":260
+  },
+  {
+    "name":"Hoyt–Schermerhorn Streets",
+    "Number":403,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":270
+  },
+  {
+    "name":"Lafayette Avenue",
+    "Number":404,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":280
+  },
+  {
+    "name":"Clinton–Washington Avenues",
+    "Number":405,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":290
+  },
+  {
+    "name":"Franklin Avenue",
+    "Number":406,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":300
+  },
+  {
+    "name":"Nostrand Avenue",
+    "Number":407,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":310
+  },
+  {
+    "name":"Kingston–Throop Avenues",
+    "Number":408,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":320
+  },
+  {
+    "name":"Utica Avenue",
+    "Number":409,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":330
+  },
+  {
+    "name":"Ralph Avenue",
+    "Number":410,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":340
+  },
+  {
+    "name":"Rockaway Avenue",
+    "Number":411,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":350
+  },
+  {
+    "name":"Broadway Junction",
+    "Number":412,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":360
+  },
+  {
+    "name":"Liberty Avenue",
+    "Number":413,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":370
+  },
+  {
+    "name":"Van Siclen Avenue",
+    "Number":414,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":380
+  },
+  {
+    "name":"Shepherd Avenue",
+    "Number":415,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":390
+  },
+  {
+    "name":"Euclid Avenue",
+    "Number":416,
+    "Line":"C",
+    "Color":"3A66A7",
+    "x":90,
+    "y":400
+  },
+  {
+    "name":"Jamaica – 179th Street",
+    "Number":417,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":10
+  },
+  {
+    "name":"Parsons Boulevard",
+    "Number":418,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":20
+  },
+  {
+    "name":"Jamaica Center – Parsons / Archer",
+    "Number":419,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":30
+  },
+  {
+    "name":"Sutphin Boulevard – Archer Avenue – JFK Airport",
+    "Number":420,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":40
+  },
+  {
+    "name":"Jamaica – Van Wyck",
+    "Number":421,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":50
+  },
+  {
+    "name":"Briarwood – Van Wyck Boulevard",
+    "Number":422,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":60
+  },
+  {
+    "name":"Kew Gardens – Union Turnpike",
+    "Number":423,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":70
+  },
+  {
+    "name":"75th Avenue",
+    "Number":424,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":80
+  },
+  {
+    "name":"Forest Hills – 71st Avenue",
+    "Number":425,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":90
+  },
+  {
+    "name":"67th Avenue",
+    "Number":426,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":100
+  },
+  {
+    "name":"63rd Drive – Rego Park",
+    "Number":427,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":110
+  },
+  {
+    "name":"Woodhaven Boulevard",
+    "Number":428,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":120
+  },
+  {
+    "name":"Grand Avenue – Newtown",
+    "Number":429,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":130
+  },
+  {
+    "name":"Elmhurst Avenue",
+    "Number":430,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":140
+  },
+  {
+    "name":"Jackson Heights – Roosevelt Avenue",
+    "Number":431,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":150
+  },
+  {
+    "name":"65th Street",
+    "Number":432,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":160
+  },
+  {
+    "name":"Northern Boulevard",
+    "Number":433,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":170
+  },
+  {
+    "name":"46th Street",
+    "Number":434,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":180
+  },
+  {
+    "name":"Steinway Street",
+    "Number":435,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":190
+  },
+  {
+    "name":"36th Street",
+    "Number":436,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":200
+  },
+  {
+    "name":"Queens Plaza",
+    "Number":437,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":210
+  },
+  {
+    "name":"Court Square – 23rd Street",
+    "Number":438,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":220
+  },
+  {
+    "name":"Lexington Avenue – 53rd Street",
+    "Number":439,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":230
+  },
+  {
+    "name":"Fifth Avenue / 53rd Street",
+    "Number":440,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":240
+  },
+  {
+    "name":"Seventh Avenue",
+    "Number":441,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":250
+  },
+  {
+    "name":"50th Street",
+    "Number":442,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":260
+  },
+  {
+    "name":"42nd Street – Port Authority Bus Terminal",
+    "Number":443,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":270
+  },
+  {
+    "name":"34th Street – Penn Station",
+    "Number":444,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":280
+  },
+  {
+    "name":"23rd Street",
+    "Number":445,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":290
+  },
+  {
+    "name":"14th Street",
+    "Number":446,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":300
+  },
+  {
+    "name":"West Fourth Street – Washington Square",
+    "Number":447,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":310
+  },
+  {
+    "name":"Spring Street",
+    "Number":448,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":320
+  },
+  {
+    "name":"Canal Street",
+    "Number":449,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":330
+  },
+  {
+    "name":"World Trade Center[note 2]",
+    "Number":450,
+    "Line":"E",
+    "Color":"3A66A7",
+    "x":100,
+    "y":340
+  },
+  {
+    "name":"Bedford Park Boulevard",
+    "Number":451,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":10
+  },
+  {
+    "name":"Kingsbridge Road",
+    "Number":452,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":20
+  },
+  {
+    "name":"Fordham Road",
+    "Number":453,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":30
+  },
+  {
+    "name":"182nd–183rd Streets",
+    "Number":454,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":40
+  },
+  {
+    "name":"Tremont Avenue",
+    "Number":455,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":50
+  },
+  {
+    "name":"174th–175th Streets",
+    "Number":456,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":60
+  },
+  {
+    "name":"170th Street",
+    "Number":457,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":70
+  },
+  {
+    "name":"167th Street",
+    "Number":458,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":80
+  },
+  {
+    "name":"161st Street – Yankee Stadium",
+    "Number":459,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":90
+  },
+  {
+    "name":"155th Street",
+    "Number":460,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":100
+  },
+  {
+    "name":"145th Street",
+    "Number":461,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":110
+  },
+  {
+    "name":"135th Street",
+    "Number":462,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":120
+  },
+  {
+    "name":"125th Street",
+    "Number":463,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":130
+  },
+  {
+    "name":"116th Street",
+    "Number":464,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":140
+  },
+  {
+    "name":"Cathedral Parkway – 110th Street",
+    "Number":465,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":150
+  },
+  {
+    "name":"103rd Street",
+    "Number":466,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":160
+  },
+  {
+    "name":"96th Street",
+    "Number":467,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":170
+  },
+  {
+    "name":"86th Street",
+    "Number":468,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":180
+  },
+  {
+    "name":"81st Street – Museum of Natural History",
+    "Number":469,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":190
+  },
+  {
+    "name":"72nd Street",
+    "Number":470,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":200
+  },
+  {
+    "name":"59th Street – Columbus Circle",
+    "Number":471,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":210
+  },
+  {
+    "name":"Seventh Avenue",
+    "Number":472,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":220
+  },
+  {
+    "name":"47th–50th Streets – Rockefeller Center",
+    "Number":473,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":230
+  },
+  {
+    "name":"42nd Street – Bryant Park",
+    "Number":474,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":240
+  },
+  {
+    "name":"34th Street – Herald Square",
+    "Number":475,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":250
+  },
+  {
+    "name":"West Fourth Street – Washington Square",
+    "Number":476,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":260
+  },
+  {
+    "name":"Broadway – Lafayette Street",
+    "Number":477,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":270
+  },
+  {
+    "name":"Grand Street",
+    "Number":478,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":280
+  },
+  {
+    "name":"DeKalb Avenue",
+    "Number":479,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":290
+  },
+  {
+    "name":"Atlantic Avenue – Barclays Center",
+    "Number":480,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":300
+  },
+  {
+    "name":"Seventh Avenue",
+    "Number":481,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":310
+  },
+  {
+    "name":"Prospect Park",
+    "Number":482,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":320
+  },
+  {
+    "name":"Church Avenue",
+    "Number":483,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":330
+  },
+  {
+    "name":"Newkirk Plaza",
+    "Number":484,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":340
+  },
+  {
+    "name":"Kings Highway",
+    "Number":485,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":350
+  },
+  {
+    "name":"Sheepshead Bay",
+    "Number":486,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":360
+  },
+  {
+    "name":"Brighton Beach",
+    "Number":487,
+    "Line":"B",
+    "Color":"FF8C00",
+    "x":110,
+    "y":370
+  },
+  {
+    "name":"Norwood – 205th Street",
+    "Number":488,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":10
+  },
+  {
+    "name":"Bedford Park Boulevard",
+    "Number":489,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":20
+  },
+  {
+    "name":"Kingsbridge Road",
+    "Number":490,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":30
+  },
+  {
+    "name":"Fordham Road",
+    "Number":491,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":40
+  },
+  {
+    "name":"182nd–183rd Streets",
+    "Number":492,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":50
+  },
+  {
+    "name":"Tremont Avenue",
+    "Number":493,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":60
+  },
+  {
+    "name":"174th–175th Streets",
+    "Number":494,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":70
+  },
+  {
+    "name":"170th Street",
+    "Number":495,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":80
+  },
+  {
+    "name":"167th Street",
+    "Number":496,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":90
+  },
+  {
+    "name":"161st Street – Yankee Stadium",
+    "Number":497,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":100
+  },
+  {
+    "name":"155th Street",
+    "Number":498,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":110
+  },
+  {
+    "name":"145th Street",
+    "Number":499,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":120
+  },
+  {
+    "name":"125th Street",
+    "Number":500,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":130
+  },
+  {
+    "name":"59th Street – Columbus Circle",
+    "Number":501,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":140
+  },
+  {
+    "name":"Seventh Avenue",
+    "Number":502,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":150
+  },
+  {
+    "name":"47th–50th Streets – Rockefeller Center",
+    "Number":503,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":160
+  },
+  {
+    "name":"42nd Street – Bryant Park",
+    "Number":504,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":170
+  },
+  {
+    "name":"34th Street – Herald Square",
+    "Number":505,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":180
+  },
+  {
+    "name":"West Fourth Street – Washington Square",
+    "Number":506,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":190
+  },
+  {
+    "name":"Broadway – Lafayette Street",
+    "Number":507,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":200
+  },
+  {
+    "name":"Grand Street",
+    "Number":508,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":210
+  },
+  {
+    "name":"DeKalb Avenue",
+    "Number":509,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":220
+  },
+  {
+    "name":"Atlantic Avenue – Barclays Center",
+    "Number":510,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":230
+  },
+  {
+    "name":"Union Street",
+    "Number":511,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":240
+  },
+  {
+    "name":"Ninth Street",
+    "Number":512,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":250
+  },
+  {
+    "name":"Prospect Avenue",
+    "Number":513,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":260
+  },
+  {
+    "name":"25th Street",
+    "Number":514,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":270
+  },
+  {
+    "name":"36th Street",
+    "Number":515,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":280
+  },
+  {
+    "name":"Ninth Avenue",
+    "Number":516,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":290
+  },
+  {
+    "name":"Fort Hamilton Parkway",
+    "Number":517,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":300
+  },
+  {
+    "name":"50th Street",
+    "Number":518,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":310
+  },
+  {
+    "name":"55th Street",
+    "Number":519,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":320
+  },
+  {
+    "name":"62nd Street",
+    "Number":520,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":330
+  },
+  {
+    "name":"71st Street",
+    "Number":521,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":340
+  },
+  {
+    "name":"79th Street",
+    "Number":522,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":350
+  },
+  {
+    "name":"18th Avenue",
+    "Number":523,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":360
+  },
+  {
+    "name":"20th Avenue",
+    "Number":524,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":370
+  },
+  {
+    "name":"Bay Parkway",
+    "Number":525,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":380
+  },
+  {
+    "name":"25th Avenue",
+    "Number":526,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":390
+  },
+  {
+    "name":"Bay 50th Street",
+    "Number":527,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":400
+  },
+  {
+    "name":"Coney Island – Stillwell Avenue",
+    "Number":528,
+    "Line":"D",
+    "Color":"FF8C00",
+    "x":120,
+    "y":410
+  },
+  {
+    "name":"Jamaica – 179th Street",
+    "Number":529,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":10
+  },
+  {
+    "name":"169th Street",
+    "Number":530,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":20
+  },
+  {
+    "name":"Parsons Boulevard",
+    "Number":531,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":30
+  },
+  {
+    "name":"Sutphin Boulevard",
+    "Number":532,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":40
+  },
+  {
+    "name":"Briarwood – Van Wyck Boulevard",
+    "Number":533,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":50
+  },
+  {
+    "name":"Kew Gardens – Union Turnpike",
+    "Number":534,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":60
+  },
+  {
+    "name":"75th Avenue",
+    "Number":535,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":70
+  },
+  {
+    "name":"Forest Hills – 71st Avenue",
+    "Number":536,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":80
+  },
+  {
+    "name":"Jackson Heights – Roosevelt Avenue",
+    "Number":537,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":90
+  },
+  {
+    "name":"21st Street – Queensbridge",
+    "Number":538,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":100
+  },
+  {
+    "name":"Roosevelt Island",
+    "Number":539,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":110
+  },
+  {
+    "name":"Lexington Avenue – 63rd Street",
+    "Number":540,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":120
+  },
+  {
+    "name":"57th Street",
+    "Number":541,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":130
+  },
+  {
+    "name":"47th–50th Streets – Rockefeller Center",
+    "Number":542,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":140
+  },
+  {
+    "name":"42nd Street – Bryant Park",
+    "Number":543,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":150
+  },
+  {
+    "name":"34th Street – Herald Square",
+    "Number":544,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":160
+  },
+  {
+    "name":"23rd Street",
+    "Number":545,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":170
+  },
+  {
+    "name":"14th Street",
+    "Number":546,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":180
+  },
+  {
+    "name":"West Fourth Street – Washington Square",
+    "Number":547,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":190
+  },
+  {
+    "name":"Broadway – Lafayette Street",
+    "Number":548,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":200
+  },
+  {
+    "name":"Second Avenue",
+    "Number":549,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":210
+  },
+  {
+    "name":"Delancey Street",
+    "Number":550,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":220
+  },
+  {
+    "name":"East Broadway",
+    "Number":551,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":230
+  },
+  {
+    "name":"York Street",
+    "Number":552,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":240
+  },
+  {
+    "name":"Jay Street – MetroTech",
+    "Number":553,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":250
+  },
+  {
+    "name":"Bergen Street",
+    "Number":554,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":260
+  },
+  {
+    "name":"Carroll Street",
+    "Number":555,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":270
+  },
+  {
+    "name":"Smith–Ninth Streets",
+    "Number":556,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":280
+  },
+  {
+    "name":"Fourth Avenue",
+    "Number":557,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":290
+  },
+  {
+    "name":"Seventh Avenue",
+    "Number":558,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":300
+  },
+  {
+    "name":"15th Street – Prospect Park",
+    "Number":559,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":310
+  },
+  {
+    "name":"Fort Hamilton Parkway",
+    "Number":560,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":320
+  },
+  {
+    "name":"Church Avenue",
+    "Number":561,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":330
+  },
+  {
+    "name":"Ditmas Avenue",
+    "Number":562,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":340
+  },
+  {
+    "name":"18th Avenue",
+    "Number":563,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":350
+  },
+  {
+    "name":"Avenue I",
+    "Number":564,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":360
+  },
+  {
+    "name":"Bay Parkway",
+    "Number":565,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":370
+  },
+  {
+    "name":"Avenue N",
+    "Number":566,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":380
+  },
+  {
+    "name":"Avenue P",
+    "Number":567,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":390
+  },
+  {
+    "name":"Kings Highway",
+    "Number":568,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":400
+  },
+  {
+    "name":"Avenue U",
+    "Number":569,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":410
+  },
+  {
+    "name":"Avenue X",
+    "Number":570,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":420
+  },
+  {
+    "name":"Neptune Avenue",
+    "Number":571,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":430
+  },
+  {
+    "name":"West Eighth Street – New York Aquarium",
+    "Number":572,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":440
+  },
+  {
+    "name":"Coney Island – Stillwell Avenue",
+    "Number":573,
+    "Line":"F",
+    "Color":"FF8C00",
+    "x":130,
+    "y":450
+  },
+  {
+    "name":"Forest Hills – 71st Avenue",
+    "Number":574,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":10
+  },
+  {
+    "name":"67th Avenue",
+    "Number":575,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":20
+  },
+  {
+    "name":"63rd Drive – Rego Park",
+    "Number":576,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":30
+  },
+  {
+    "name":"Woodhaven Boulevard",
+    "Number":577,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":40
+  },
+  {
+    "name":"Grand Avenue – Newtown",
+    "Number":578,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":50
+  },
+  {
+    "name":"Elmhurst Avenue",
+    "Number":579,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":60
+  },
+  {
+    "name":"Jackson Heights – Roosevelt Avenue",
+    "Number":580,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":70
+  },
+  {
+    "name":"65th Street",
+    "Number":581,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":80
+  },
+  {
+    "name":"Northern Boulevard",
+    "Number":582,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":90
+  },
+  {
+    "name":"46th Street",
+    "Number":583,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":100
+  },
+  {
+    "name":"Steinway Street",
+    "Number":584,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":110
+  },
+  {
+    "name":"36th Street",
+    "Number":585,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":120
+  },
+  {
+    "name":"Queens Plaza",
+    "Number":586,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":130
+  },
+  {
+    "name":"Court Square – 23rd Street",
+    "Number":587,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":140
+  },
+  {
+    "name":"Lexington Avenue – 53rd Street",
+    "Number":588,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":150
+  },
+  {
+    "name":"Fifth Avenue / 53rd Street",
+    "Number":589,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":160
+  },
+  {
+    "name":"47th–50th Streets – Rockefeller Center",
+    "Number":590,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":170
+  },
+  {
+    "name":"42nd Street – Bryant Park",
+    "Number":591,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":180
+  },
+  {
+    "name":"34th Street – Herald Square",
+    "Number":592,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":190
+  },
+  {
+    "name":"23rd Street",
+    "Number":593,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":200
+  },
+  {
+    "name":"14th Street",
+    "Number":594,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":210
+  },
+  {
+    "name":"West Fourth Street – Washington Square",
+    "Number":595,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":220
+  },
+  {
+    "name":"Broadway – Lafayette Street",
+    "Number":596,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":230
+  },
+  {
+    "name":"Essex Street",
+    "Number":597,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":240
+  },
+  {
+    "name":"Marcy Avenue",
+    "Number":598,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":250
+  },
+  {
+    "name":"Hewes Street",
+    "Number":599,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":260
+  },
+  {
+    "name":"Lorimer Street",
+    "Number":600,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":270
+  },
+  {
+    "name":"Flushing Avenue",
+    "Number":601,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":280
+  },
+  {
+    "name":"Myrtle Avenue",
+    "Number":602,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":290
+  },
+  {
+    "name":"Central Avenue",
+    "Number":603,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":300
+  },
+  {
+    "name":"Knickerbocker Avenue",
+    "Number":604,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":310
+  },
+  {
+    "name":"Myrtle–Wyckoff Avenues",
+    "Number":605,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":320
+  },
+  {
+    "name":"Seneca Avenue",
+    "Number":606,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":330
+  },
+  {
+    "name":"Forest Avenue",
+    "Number":607,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":340
+  },
+  {
+    "name":"Fresh Pond Road",
+    "Number":608,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":350
+  },
+  {
+    "name":"Middle Village – Metropolitan Avenue",
+    "Number":609,
+    "Line":"M",
+    "Color":"FF8C00",
+    "x":140,
+    "y":360
+  },
+  {
+    "name":"Jamaica Center – Parsons / Archer",
+    "Number":610,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":10
+  },
+  {
+    "name":"Sutphin Boulevard – Archer Avenue – JFK Airport",
+    "Number":611,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":20
+  },
+  {
+    "name":"121st Street",
+    "Number":612,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":30
+  },
+  {
+    "name":"111th Street",
+    "Number":613,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":40
+  },
+  {
+    "name":"104th Street",
+    "Number":614,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":50
+  },
+  {
+    "name":"Woodhaven Boulevard",
+    "Number":615,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":60
+  },
+  {
+    "name":"85th Street – Forest Parkway",
+    "Number":616,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":70
+  },
+  {
+    "name":"75th Street – Elderts Lane",
+    "Number":617,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":80
+  },
+  {
+    "name":"Cypress Hills",
+    "Number":618,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":90
+  },
+  {
+    "name":"Crescent Street",
+    "Number":619,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":100
+  },
+  {
+    "name":"Norwood Avenue",
+    "Number":620,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":110
+  },
+  {
+    "name":"Cleveland Street",
+    "Number":621,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":120
+  },
+  {
+    "name":"Van Siclen Avenue",
+    "Number":622,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":130
+  },
+  {
+    "name":"Alabama Avenue",
+    "Number":623,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":140
+  },
+  {
+    "name":"Broadway Junction",
+    "Number":624,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":150
+  },
+  {
+    "name":"Chauncey Street",
+    "Number":625,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":160
+  },
+  {
+    "name":"Halsey Street",
+    "Number":626,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":170
+  },
+  {
+    "name":"Gates Avenue",
+    "Number":627,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":180
+  },
+  {
+    "name":"Kosciuszko Street",
+    "Number":628,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":190
+  },
+  {
+    "name":"Myrtle Avenue",
+    "Number":629,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":200
+  },
+  {
+    "name":"Flushing Avenue",
+    "Number":630,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":210
+  },
+  {
+    "name":"Lorimer Street",
+    "Number":631,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":220
+  },
+  {
+    "name":"Hewes Street",
+    "Number":632,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":230
+  },
+  {
+    "name":"Marcy Avenue",
+    "Number":633,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":240
+  },
+  {
+    "name":"Essex Street",
+    "Number":634,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":250
+  },
+  {
+    "name":"Bowery",
+    "Number":635,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":260
+  },
+  {
+    "name":"Canal Street",
+    "Number":636,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":270
+  },
+  {
+    "name":"Chambers Street",
+    "Number":637,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":280
+  },
+  {
+    "name":"Fulton Street",
+    "Number":638,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":290
+  },
+  {
+    "name":"Broad Street",
+    "Number":639,
+    "Line":"J",
+    "Color":"DC8909",
+    "x":150,
+    "y":300
+  },
+  {
+    "name":"Jamaica Center – Parsons / Archer",
+    "Number":640,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":10
+  },
+  {
+    "name":"Sutphin Boulevard – Archer Avenue – JFK Airport",
+    "Number":641,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":20
+  },
+  {
+    "name":"121st Street",
+    "Number":642,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":30
+  },
+  {
+    "name":"104th Street",
+    "Number":643,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":40
+  },
+  {
+    "name":"Woodhaven Boulevard",
+    "Number":644,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":50
+  },
+  {
+    "name":"75th Street – Elderts Lane",
+    "Number":645,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":60
+  },
+  {
+    "name":"Crescent Street",
+    "Number":646,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":70
+  },
+  {
+    "name":"Norwood Avenue",
+    "Number":647,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":80
+  },
+  {
+    "name":"Van Siclen Avenue",
+    "Number":648,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":90
+  },
+  {
+    "name":"Broadway Junction",
+    "Number":649,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":100
+  },
+  {
+    "name":"Chauncey Street",
+    "Number":650,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":110
+  },
+  {
+    "name":"Gates Avenue",
+    "Number":651,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":120
+  },
+  {
+    "name":"Myrtle Avenue",
+    "Number":652,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":130
+  },
+  {
+    "name":"Marcy Avenue",
+    "Number":653,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":140
+  },
+  {
+    "name":"Essex Street",
+    "Number":654,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":150
+  },
+  {
+    "name":"Bowery",
+    "Number":655,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":160
+  },
+  {
+    "name":"Canal Street",
+    "Number":656,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":170
+  },
+  {
+    "name":"Chambers Street",
+    "Number":657,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":180
+  },
+  {
+    "name":"Fulton Street",
+    "Number":658,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":190
+  },
+  {
+    "name":"Broad Street",
+    "Number":659,
+    "Line":"Z",
+    "Color":"DC8909",
+    "x":160,
+    "y":200
+  },
+  {
+    "name":"Court Square",
+    "Number":660,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":10
+  },
+  {
+    "name":"21st Street",
+    "Number":661,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":20
+  },
+  {
+    "name":"Greenpoint Avenue",
+    "Number":662,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":30
+  },
+  {
+    "name":"Nassau Avenue",
+    "Number":663,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":40
+  },
+  {
+    "name":"Metropolitan Avenue",
+    "Number":664,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":50
+  },
+  {
+    "name":"Broadway",
+    "Number":665,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":60
+  },
+  {
+    "name":"Flushing Avenue",
+    "Number":666,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":70
+  },
+  {
+    "name":"Myrtle–Willoughby Avenues",
+    "Number":667,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":80
+  },
+  {
+    "name":"Bedford–Nostrand Avenues",
+    "Number":668,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":90
+  },
+  {
+    "name":"Classon Avenue",
+    "Number":669,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":100
+  },
+  {
+    "name":"Clinton–Washington Avenues",
+    "Number":670,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":110
+  },
+  {
+    "name":"Fulton Street",
+    "Number":671,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":120
+  },
+  {
+    "name":"Hoyt–Schermerhorn Streets",
+    "Number":672,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":130
+  },
+  {
+    "name":"Bergen Street",
+    "Number":673,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":140
+  },
+  {
+    "name":"Carroll Street",
+    "Number":674,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":150
+  },
+  {
+    "name":"Smith–Ninth Streets",
+    "Number":675,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":160
+  },
+  {
+    "name":"Fourth Avenue",
+    "Number":676,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":170
+  },
+  {
+    "name":"Seventh Avenue",
+    "Number":677,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":180
+  },
+  {
+    "name":"15th Street – Prospect Park",
+    "Number":678,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":190
+  },
+  {
+    "name":"Fort Hamilton Parkway",
+    "Number":679,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":200
+  },
+  {
+    "name":"Church Avenue",
+    "Number":680,
+    "Line":"G",
+    "Color":"0AC92B",
+    "x":170,
+    "y":210
+  },
+  {
+    "name":"Eighth Avenue",
+    "Number":681,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":10
+  },
+  {
+    "name":"Sixth Avenue",
+    "Number":682,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":20
+  },
+  {
+    "name":"Union Square",
+    "Number":683,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":30
+  },
+  {
+    "name":"Third Avenue",
+    "Number":684,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":40
+  },
+  {
+    "name":"First Avenue",
+    "Number":685,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":50
+  },
+  {
+    "name":"Bedford Avenue",
+    "Number":686,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":60
+  },
+  {
+    "name":"Lorimer Street",
+    "Number":687,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":70
+  },
+  {
+    "name":"Graham Avenue",
+    "Number":688,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":80
+  },
+  {
+    "name":"Grand Street",
+    "Number":689,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":90
+  },
+  {
+    "name":"Montrose Avenue",
+    "Number":690,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":100
+  },
+  {
+    "name":"Morgan Avenue",
+    "Number":691,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":110
+  },
+  {
+    "name":"Jefferson Street",
+    "Number":692,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":120
+  },
+  {
+    "name":"DeKalb Avenue",
+    "Number":693,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":130
+  },
+  {
+    "name":"Myrtle–Wyckoff Avenues",
+    "Number":694,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":140
+  },
+  {
+    "name":"Halsey Street",
+    "Number":695,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":150
+  },
+  {
+    "name":"Wilson Avenue",
+    "Number":696,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":160
+  },
+  {
+    "name":"Bushwick Avenue – Aberdeen Street",
+    "Number":697,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":170
+  },
+  {
+    "name":"Broadway Junction",
+    "Number":698,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":180
+  },
+  {
+    "name":"Atlantic Avenue",
+    "Number":699,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":190
+  },
+  {
+    "name":"Sutter Avenue",
+    "Number":700,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":200
+  },
+  {
+    "name":"Livonia Avenue",
+    "Number":701,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":210
+  },
+  {
+    "name":"New Lots Avenue",
+    "Number":702,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":220
+  },
+  {
+    "name":"East 105th Street",
+    "Number":703,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":230
+  },
+  {
+    "name":"Canarsie – Rockaway Parkway",
+    "Number":704,
+    "Line":"L",
+    "Color":"D8D8D8",
+    "x":180,
+    "y":240
+  },
+  {
+    "name":"Astoria – Ditmars Boulevard",
+    "Number":705,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":10
+  },
+  {
+    "name":"Astoria Boulevard",
+    "Number":706,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":20
+  },
+  {
+    "name":"30th Avenue",
+    "Number":707,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":30
+  },
+  {
+    "name":"Broadway",
+    "Number":708,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":40
+  },
+  {
+    "name":"36th Avenue",
+    "Number":709,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":50
+  },
+  {
+    "name":"39th Avenue",
+    "Number":710,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":60
+  },
+  {
+    "name":"Queensboro Plaza",
+    "Number":711,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":70
+  },
+  {
+    "name":"Lexington Avenue / 59th Street",
+    "Number":712,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":80
+  },
+  {
+    "name":"Fifth Avenue / 59th Street",
+    "Number":713,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":90
+  },
+  {
+    "name":"57th Street – Seventh Avenue",
+    "Number":714,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":100
+  },
+  {
+    "name":"49th Street",
+    "Number":715,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":110
+  },
+  {
+    "name":"Times Square – 42nd Street",
+    "Number":716,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":120
+  },
+  {
+    "name":"34th Street – Herald Square",
+    "Number":717,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":130
+  },
+  {
+    "name":"28th Street",
+    "Number":718,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":140
+  },
+  {
+    "name":"23rd Street",
+    "Number":719,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":150
+  },
+  {
+    "name":"14th Street – Union Square",
+    "Number":720,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":160
+  },
+  {
+    "name":"Eighth Street – New York University",
+    "Number":721,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":170
+  },
+  {
+    "name":"Prince Street",
+    "Number":722,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":180
+  },
+  {
+    "name":"Canal Street",
+    "Number":723,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":190
+  },
+  {
+    "name":"Canal Street",
+    "Number":724,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":200
+  },
+  {
+    "name":"City Hall",
+    "Number":725,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":210
+  },
+  {
+    "name":"Cortlandt Street",
+    "Number":726,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":220
+  },
+  {
+    "name":"Rector Street",
+    "Number":727,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":230
+  },
+  {
+    "name":"Whitehall Street – South Ferry",
+    "Number":728,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":240
+  },
+  {
+    "name":"Court Street",
+    "Number":729,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":250
+  },
+  {
+    "name":"Jay Street – MetroTech",
+    "Number":730,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":260
+  },
+  {
+    "name":"DeKalb Avenue",
+    "Number":731,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":270
+  },
+  {
+    "name":"Atlantic Avenue – Barclays Center",
+    "Number":732,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":280
+  },
+  {
+    "name":"Union Street",
+    "Number":733,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":290
+  },
+  {
+    "name":"Ninth Street",
+    "Number":734,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":300
+  },
+  {
+    "name":"Prospect Avenue",
+    "Number":735,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":310
+  },
+  {
+    "name":"25th Street",
+    "Number":736,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":320
+  },
+  {
+    "name":"36th Street",
+    "Number":737,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":330
+  },
+  {
+    "name":"45th Street",
+    "Number":738,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":340
+  },
+  {
+    "name":"53rd Street",
+    "Number":739,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":350
+  },
+  {
+    "name":"59th Street",
+    "Number":740,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":360
+  },
+  {
+    "name":"Eighth Avenue",
+    "Number":741,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":370
+  },
+  {
+    "name":"Fort Hamilton Parkway",
+    "Number":742,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":380
+  },
+  {
+    "name":"New Utrecht Avenue",
+    "Number":743,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":390
+  },
+  {
+    "name":"18th Avenue",
+    "Number":744,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":400
+  },
+  {
+    "name":"20th Avenue",
+    "Number":745,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":410
+  },
+  {
+    "name":"Bay Parkway",
+    "Number":746,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":420
+  },
+  {
+    "name":"Kings Highway",
+    "Number":747,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":430
+  },
+  {
+    "name":"Avenue U",
+    "Number":748,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":440
+  },
+  {
+    "name":"86th Street",
+    "Number":749,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":450
+  },
+  {
+    "name":"Coney Island – Stillwell Avenue",
+    "Number":750,
+    "Line":"N",
+    "Color":"FFD700",
+    "x":190,
+    "y":460
+  },
+  {
+    "name":"Astoria – Ditmars Boulevard",
+    "Number":751,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":10
+  },
+  {
+    "name":"Astoria Boulevard",
+    "Number":752,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":20
+  },
+  {
+    "name":"30th Avenue",
+    "Number":753,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":30
+  },
+  {
+    "name":"Broadway",
+    "Number":754,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":40
+  },
+  {
+    "name":"36th Avenue",
+    "Number":755,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":50
+  },
+  {
+    "name":"39th Avenue",
+    "Number":756,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":60
+  },
+  {
+    "name":"Queensboro Plaza",
+    "Number":757,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":70
+  },
+  {
+    "name":"Lexington Avenue / 59th Street",
+    "Number":758,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":80
+  },
+  {
+    "name":"Fifth Avenue / 59th Street",
+    "Number":759,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":90
+  },
+  {
+    "name":"57th Street – Seventh Avenue",
+    "Number":760,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":100
+  },
+  {
+    "name":"49th Street",
+    "Number":761,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":110
+  },
+  {
+    "name":"Times Square – 42nd Street",
+    "Number":762,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":120
+  },
+  {
+    "name":"34th Street – Herald Square",
+    "Number":763,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":130
+  },
+  {
+    "name":"14th Street – Union Square",
+    "Number":764,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":140
+  },
+  {
+    "name":"Canal Street",
+    "Number":765,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":150
+  },
+  {
+    "name":"DeKalb Avenue",
+    "Number":766,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":160
+  },
+  {
+    "name":"Atlantic Avenue – Barclays Center",
+    "Number":767,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":170
+  },
+  {
+    "name":"Seventh Avenue",
+    "Number":768,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":180
+  },
+  {
+    "name":"Prospect Park",
+    "Number":769,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":190
+  },
+  {
+    "name":"Parkside Avenue",
+    "Number":770,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":200
+  },
+  {
+    "name":"Church Avenue",
+    "Number":771,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":210
+  },
+  {
+    "name":"Beverley Road",
+    "Number":772,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":220
+  },
+  {
+    "name":"Cortelyou Road",
+    "Number":773,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":230
+  },
+  {
+    "name":"Newkirk Plaza",
+    "Number":774,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":240
+  },
+  {
+    "name":"Avenue H",
+    "Number":775,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":250
+  },
+  {
+    "name":"Avenue J",
+    "Number":776,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":260
+  },
+  {
+    "name":"Avenue M",
+    "Number":777,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":270
+  },
+  {
+    "name":"Kings Highway",
+    "Number":778,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":280
+  },
+  {
+    "name":"Avenue U",
+    "Number":779,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":290
+  },
+  {
+    "name":"Neck Road",
+    "Number":780,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":300
+  },
+  {
+    "name":"Sheepshead Bay",
+    "Number":781,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":310
+  },
+  {
+    "name":"Brighton Beach",
+    "Number":782,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":320
+  },
+  {
+    "name":"Ocean Parkway",
+    "Number":783,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":330
+  },
+  {
+    "name":"West Eighth Street – New York Aquarium",
+    "Number":784,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":340
+  },
+  {
+    "name":"Coney Island – Stillwell Avenue",
+    "Number":785,
+    "Line":"Q",
+    "Color":"FFD700",
+    "x":200,
+    "y":350
+  },
+  {
+    "name":"Forest Hills – 71st Avenue",
+    "Number":786,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":10
+  },
+  {
+    "name":"67th Avenue",
+    "Number":787,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":20
+  },
+  {
+    "name":"63rd Drive – Rego Park",
+    "Number":788,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":30
+  },
+  {
+    "name":"Woodhaven Boulevard",
+    "Number":789,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":40
+  },
+  {
+    "name":"Grand Avenue – Newtown",
+    "Number":790,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":50
+  },
+  {
+    "name":"Elmhurst Avenue",
+    "Number":791,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":60
+  },
+  {
+    "name":"Jackson Heights – Roosevelt Avenue",
+    "Number":792,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":70
+  },
+  {
+    "name":"65th Street",
+    "Number":793,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":80
+  },
+  {
+    "name":"Northern Boulevard",
+    "Number":794,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":90
+  },
+  {
+    "name":"46th Street",
+    "Number":795,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":100
+  },
+  {
+    "name":"Steinway Street",
+    "Number":796,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":110
+  },
+  {
+    "name":"36th Street",
+    "Number":797,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":120
+  },
+  {
+    "name":"Queens Plaza",
+    "Number":798,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":130
+  },
+  {
+    "name":"Lexington Avenue / 59th Street",
+    "Number":799,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":140
+  },
+  {
+    "name":"Fifth Avenue / 59th Street",
+    "Number":800,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":150
+  },
+  {
+    "name":"57th Street – Seventh Avenue",
+    "Number":801,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":160
+  },
+  {
+    "name":"49th Street",
+    "Number":802,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":170
+  },
+  {
+    "name":"Times Square – 42nd Street",
+    "Number":803,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":180
+  },
+  {
+    "name":"34th Street – Herald Square",
+    "Number":804,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":190
+  },
+  {
+    "name":"28th Street",
+    "Number":805,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":200
+  },
+  {
+    "name":"23rd Street",
+    "Number":806,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":210
+  },
+  {
+    "name":"14th Street – Union Square",
+    "Number":807,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":220
+  },
+  {
+    "name":"Eighth Street – New York University",
+    "Number":808,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":230
+  },
+  {
+    "name":"Prince Street",
+    "Number":809,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":240
+  },
+  {
+    "name":"Canal Street",
+    "Number":810,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":250
+  },
+  {
+    "name":"City Hall",
+    "Number":811,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":260
+  },
+  {
+    "name":"Cortlandt Street",
+    "Number":812,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":270
+  },
+  {
+    "name":"Rector Street",
+    "Number":813,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":280
+  },
+  {
+    "name":"Whitehall Street – South Ferry",
+    "Number":814,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":290
+  },
+  {
+    "name":"Court Street",
+    "Number":815,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":300
+  },
+  {
+    "name":"Jay Street – MetroTech",
+    "Number":816,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":310
+  },
+  {
+    "name":"DeKalb Avenue",
+    "Number":817,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":320
+  },
+  {
+    "name":"Atlantic Avenue – Barclays Center",
+    "Number":818,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":330
+  },
+  {
+    "name":"Union Street",
+    "Number":819,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":340
+  },
+  {
+    "name":"Ninth Street",
+    "Number":820,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":350
+  },
+  {
+    "name":"Prospect Avenue",
+    "Number":821,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":360
+  },
+  {
+    "name":"25th Street",
+    "Number":822,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":370
+  },
+  {
+    "name":"36th Street",
+    "Number":823,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":380
+  },
+  {
+    "name":"45th Street",
+    "Number":824,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":390
+  },
+  {
+    "name":"53rd Street",
+    "Number":825,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":400
+  },
+  {
+    "name":"59th Street",
+    "Number":826,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":410
+  },
+  {
+    "name":"Bay Ridge Avenue",
+    "Number":827,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":420
+  },
+  {
+    "name":"77th Street",
+    "Number":828,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":430
+  },
+  {
+    "name":"86th Street",
+    "Number":829,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":440
+  },
+  {
+    "name":"Bay Ridge – 95th Street",
+    "Number":830,
+    "Line":"R",
+    "Color":"FFD700",
+    "x":210,
+    "y":450
+  }
+],
+"links":[
+{"source": 0, "target": 90, "fullpath": "n1n91n142n", "name": "nelliemckesson1"},
+{"source": 90, "target": 141, "fullpath": "n1n91n142n", "name": "nelliemckesson1"},
+{"source": 1, "target": 3, "fullpath": "n2n4n", "name": "runemadsen3"},
+{"source": 120, "target": 4, "fullpath": "n121n5n45n61n", "name": "test1"},
+{"source": 4, "target": 44, "fullpath": "n121n5n45n61n", "name": "test1"},
+{"source": 44, "target": 60, "fullpath": "n121n5n45n61n", "name": "test1"}, 
+{"source": 0, "target": 626, "fullpath": "n1n627n284n451n829n", "name": "test2"}, 
+{"source": 626, "target": 283, "fullpath": "n1n627n284n451n829n", "name": "test2"}, 
+{"source": 283, "target": 450, "fullpath": "n1n627n284n451n829n", "name": "test2"}, 
+{"source": 450, "target": 828, "fullpath": "n1n627n284n451n829n", "name": "test2"}
+],
+"routes":[
+{"name": "nelliemckesson1", "submitter": "Nellie McKesson", "album": "Downward Spiral", "artist": "Nine Inch Nails", "url": "null", "timein": "8:26AM", "timeout": "9:04AM" 
+},
+{"name": "nelliemckesson2", "submitter": "Nellie McKesson", "album": "Downward Spiral", "artist": "Nine Inch Nails", "url": "null", "timein": "8:26AM", "timeout": "9:04AM" 
+},
+{"name": "runemadsen3", "submitter": "Rune Madsen", "album": "Pinkerton", "artist": "Weezer", "url": "null", "timein": "8:26AM", "timeout": "9:04AM"
+}
+]}
