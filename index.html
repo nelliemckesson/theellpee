@@ -322,26 +322,34 @@ var link = svg.selectAll("link")
 				var arr = fpath.split("n")
 				arr.pop()
 				arr.shift()
-				if (currStatus != null && currStatus.indexOf("activeroute") >= 0) {
-					for (k = 0; k < arr.length; ++k) {
+				for (k = 0; k < arr.length; ++k) {
 						d3.select("#" + "station" + arr[k])
-						.style("fill", "black")
-						.style("stroke", "white");
+						.style("fill", function(d) {
+							var currNode = d3.select(this).attr("class")
+							if (currNode != null && currNode.indexOf("activenode") >= 0) {
+							return "black";
+							} else if (currNode != null && currNode.indexOf("activenode") <= 0) {
+								return "white";
+							} else {
+								return "white";
+							}
+						})
+						.style("stroke", function(d) {
+							var currNode = d3.select(this).attr("class")
+							if (currNode != null && currNode.indexOf("activenode") >= 0) {
+							return "white";
+							} else if (currNode != null && currNode.indexOf("activenode") <= 0) {
+								return "gray";
+							} else {
+								return "gray";
+							}
+						});
 					}
+				if (currStatus != null && currStatus.indexOf("activeroute") >= 0) {
 				return "black";
 				} else if (currStatus != null && currStatus.indexOf("activeroute") <= 0) {
-					for (k = 0; k < arr.length; ++k) {
-						d3.select("#" + "station" + arr[k])
-						.style("fill", "white")
-						.style("stroke", "gray");
-					}
 				return "orange";
 				} else {
-					for (k = 0; k < arr.length; ++k) {
-						d3.select("#" + "station" + arr[k])
-						.style("fill", "white")
-						.style("stroke", "gray");
-					}
 				return "orange";
 				}
 			})
@@ -399,18 +407,9 @@ var link = svg.selectAll("link")
 			var xPosition = parseFloat(d.x * 5.3) + 39;
 			var yPosition = 10 + parseFloat(d3.select(this).attr("cy"));
 
-			// select all links in all routes that touch the selected node
-			
-			/*d3.selectAll("[class*='n" + d.nodes[0].Number + "n']")
-			.transition()
-			.duration(10)
-			//ideally, each route will have a different color
-			.style("stroke", "orange")
-			.style("display", "block")
-			.style("stroke-opacity", "1")
-			;
-			
-			d3.select(this).style("fill", "orange");*/
+			d3.select(this)
+			.style("stroke", "white")
+			.style("fill", "black");
 
 			d3.select("#tooltip")
 			  .style("left", xPosition + "px")
@@ -427,9 +426,27 @@ var link = svg.selectAll("link")
 		})
 		.on("mouseout", function(d) {
 
-			/*d3.selectAll("[class*='n" + d.nodes[0].Number + "n']")
-			.style("stroke", "grey")
-			.style("stroke-opacity", "1");*/
+			myClass = d3.select(this).attr("class")
+
+			d3.select(this)
+			.style("stroke", function(d) { 
+				if (myClass != null && myClass.indexOf("activenode") >= 0) {
+					return "white";
+				} else if (myClass != null && myClass.indexOf("activenode") <= 0) {
+					return "gray";
+				} else {
+					return "gray";
+				}
+			})
+			.style("fill", function(d) { 
+				if (myClass != null && myClass.indexOf("activenode") >= 0) {
+					return "black";
+				} else if (myClass != null && myClass.indexOf("activenode") <= 0) {
+					return "white";
+				} else {
+					return "white";
+				}
+			});
 
 			d3.select("#tooltip").classed("hidden", true);
 			//d3.select(this).style("fill", "white");
@@ -481,18 +498,16 @@ var link = svg.selectAll("link")
 				}
 			});
 
-//need to adjust this to select routes that contain ALL values in activenodes array
+			// Selects routes that contain all selected nodes
 			d3.selectAll('[data-status="activeroute"]').select("path")
 			.transition()
 			.duration(10)
-			//ideally, each route will have a different color
 			.style("stroke", "black")
 			.style("display", "block")
 			.style("stroke-opacity", "1")
 			.style("stroke-width", "2");
-			//.style("pointer-events", "none");
-			;
 
+			// Clears selection if route no longer meets the requirements
 			d3.selectAll('[data-status="inactive"]').select("path")
 			.transition()
 			.duration(10)
@@ -501,16 +516,18 @@ var link = svg.selectAll("link")
 			.style("stroke-opacity", "1")
 			.style("stroke-width", "1")
 			.style("pointer-events", "all");
-			;
 
+			// selected nodes are black
 			d3.selectAll(".activenode")
 			.style("fill", "black")
 			.style("stroke", "white");
 
+			// inactive nodes are white
 			d3.selectAll(".inactive")
 			.style("fill", "white")
 			.style("stroke", "gray");
 			
+			// pop up s station-info tooltip for clicked node - is this necessary?
 			d3.select("#tooltip")
 			  .style("left", xPosition + "px")
 			  .style("top", yPosition + "px")
@@ -525,47 +542,28 @@ var link = svg.selectAll("link")
 			   
 		});
 
-svg.selectAll(".node")
+		// append shortened station name to right of node
+		svg.selectAll(".node")
 			.data(graph.nodes)
 			.append("text")
-		   .text(function(d, i) {   
+		    .text(function(d, i) {   
 				return d.nodes[0].name.substring(0,5) + "...";
-		   })
-		   .attr("x", function(d, i) {
+		    })
+		    .attr("x", function(d, i) {
 				return d.x * 5 + 5;
-		   })
-		   .attr("y", function(d, i) {
+		    })
+		    .attr("y", function(d, i) {
 				return d.y;
-		   })
-		   .style("font-family", "monospace")
-		   .style("font-size", "7px")
-		   .style("text-anchor", "right")
-		   .style("dominant-baseline", "central")
-		   .style("stroke", "#999")
-		   .style("stroke-opacity", "0.6")
-		   .style("pointer-events", "none");
+		    })
+		    .style("font-family", "monospace")
+		    .style("font-size", "7px")
+		    .style("text-anchor", "right")
+		    .style("dominant-baseline", "central")
+		    .style("stroke", "#999")
+		    .style("stroke-opacity", "0.6")
+		    .style("pointer-events", "none");
 
-		/*svg.selectAll(".node")
-			.data(graph.nodes)
-			.append("line")
-			.attr("x1", function(d, i) {
-				return d.x * 6;
-		   })
-		   .attr("y1", function(d, i) {
-				return d.y * 2  - 10;
-		   })
-		   .attr("x2", function(d, i) {
-				return d.x * 6;
-		   })
-		   .attr("y2", function(d, i) {
-				return d.y * 2 + 10;
-		   })
-		   .style("stroke", function(d, i) {   
-				return "#" + d.nodes[0].Color;
-		   })
-		   .style("stroke-width", "5");
-		 
-		 svg.selectAll("textpaths")
+		/*svg.selectAll("textpaths")
 			.data(graph.links)
 			.enter()
 			.append("text")			
@@ -590,7 +588,7 @@ svg.selectAll(".node")
 			.style("font-family", "sans-serif")	
 			.style("display", "none");*/
 
-});
+	});
 });
 
 </script>

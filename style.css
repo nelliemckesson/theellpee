@@ -1,3 +1,8 @@
+body {
+	width: 1200px;
+	margin: 0 auto;
+}
+
 .link {
   fill: none;
   stroke: #000;
