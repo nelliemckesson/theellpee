@@ -6641,16 +6641,16 @@
   }
 ],
 "links":[
-{"source": 0, "target": 90, "fullpath": "n1n91n142n", "name": "nelliemckesson1"},
-{"source": 90, "target": 141, "fullpath": "n1n91n142n", "name": "nelliemckesson1"},
-{"source": 1, "target": 3, "fullpath": "n2n4n", "name": "runemadsen3"},
-{"source": 120, "target": 4, "fullpath": "n121n5n45n61n", "name": "test1"},
-{"source": 4, "target": 44, "fullpath": "n121n5n45n61n", "name": "test1"},
-{"source": 44, "target": 60, "fullpath": "n121n5n45n61n", "name": "test1"}, 
-{"source": 0, "target": 626, "fullpath": "n1n627n284n451n829n", "name": "test2"}, 
-{"source": 626, "target": 283, "fullpath": "n1n627n284n451n829n", "name": "test2"}, 
-{"source": 283, "target": 450, "fullpath": "n1n627n284n451n829n", "name": "test2"}, 
-{"source": 450, "target": 828, "fullpath": "n1n627n284n451n829n", "name": "test2"}
+{"source": 0, "target": 90, "fullpath": "n1n91n142n", "name": "nelliemckesson1", "album": "Downward Spiral", "artist": "Nine Inch Nails", "url": "null"},
+{"source": 90, "target": 141, "fullpath": "n1n91n142n", "name": "nelliemckesson1", "album": "Downward Spiral", "artist": "Nine Inch Nails", "url": "null"},
+{"source": 1, "target": 3, "fullpath": "n2n4n", "name": "runemadsen3", "album": "Pinkerton", "artist": "Weezer", "url": "null"},
+{"source": 120, "target": 4, "fullpath": "n121n5n45n61n", "name": "test1", "album": "Aeroplane", "artist": "Neutral Milk Hotel", "url": "null"},
+{"source": 4, "target": 44, "fullpath": "n121n5n45n61n", "name": "test1", "album": "Aeroplane", "artist": "Neutral Milk Hotel", "url": "null"},
+{"source": 44, "target": 60, "fullpath": "n121n5n45n61n", "name": "test1", "album": "Aeroplane", "artist": "Neutral Milk Hotel", "url": "null"}, 
+{"source": 0, "target": 626, "fullpath": "n1n627n284n451n829n", "name": "test2", "album": "Blue Album", "artist": "Weezer", "url": "null"}, 
+{"source": 626, "target": 283, "fullpath": "n1n627n284n451n829n", "name": "test2", "album": "Blue Album", "artist": "Weezer", "url": "null"}, 
+{"source": 283, "target": 450, "fullpath": "n1n627n284n451n829n", "name": "test2", "album": "Blue Album", "artist": "Weezer", "url": "null"}, 
+{"source": 450, "target": 828, "fullpath": "n1n627n284n451n829n", "name": "test2", "album": "Blue Album", "artist": "Weezer", "url": "null"}
 ],
 "routes":[
 {"name": "nelliemckesson1", "submitter": "Nellie McKesson", "album": "Downward Spiral", "artist": "Nine Inch Nails", "url": "null", "timein": "8:26AM", "timeout": "9:04AM" 

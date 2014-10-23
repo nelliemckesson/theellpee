@@ -1,0 +1,83 @@
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: 1;
+}
+
+.label {
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 19px;
+}
+
+.first {
+	margin-left: 64px;
+}
+
+.label p {
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #fff;
+	vertical-align: middle;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.linered {
+	background-color: #FF5333;
+}
+
+.linegreen {
+	background-color: #008B00;
+}
+
+.linepurple {
+	background-color: #B5509C;
+}
+
+.lineblue {
+	background-color: #3A66A7;
+}
+
+.lineorange {
+	background-color: #FF8C00;
+}
+
+.linebrown {
+	background-color: #DC8909;
+}
+
+.lineltgreen {
+	background-color: #0AC92B;
+}
+
+.linegray {
+	background-color: #D8D8D8;
+}
+
+.lineyellow {
+	background-color: #FFD700;
+}
+
+#route {
+	margin-bottom: 50px;
+}
+
+#route p {
+	font-family: sans-serif;
+	margin: 0 0 5px 0;
+	color: #d8d8d8;
+	font-style: italic;
+	text-align: center;
+}
+
+#route p span {
+	color: #333;
+	font-style: normal;
+}
