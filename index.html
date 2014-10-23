@@ -108,6 +108,11 @@
 		<p><span id="number">100</span> train</p>
 </div>
 
+<div id="route">
+<p>Route: <span id="path">100</span></p>
+<p>Album/Playlist: <span id="album">100</span></p>
+</div>
+
 <div class="label linered first">
 	<p>1</p>
 </div>
@@ -194,11 +199,14 @@
 
 	<script>
 
-  var scaleh = d3.scale.linear();
+    var scaleh = d3.scale.linear();
 	var scalev = d3.scale.linear();
 	var width = 1150,
 	height = 1200;
 	
+	function fx(d) { return d.x; };
+	function fy(d) { return d.y; };
+
 	function fx(d) { return d.x; };
 	function fy(d) { return d.y; };
 	
@@ -229,8 +237,6 @@ d3.json("players.json", function(json) {
 
 	datap = json.nodes;
 
-	//<line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
-
 //filters data set for only starting players
 	var datap_start = datap;
 
@@ -239,10 +245,7 @@ d3.json("players.json", function(json) {
 
 	var color = d3.scale.category20();
 
-		// Returns the path for a given data point.
-//function path(d) {
-//  return line(traits.map(function(p) { return [x(p), y[p](d[p])]; }));
-//}
+// Creating the route paths
 
 var link = svg.selectAll("link")
 	  .data(graph.links)
@@ -264,8 +267,7 @@ var link = svg.selectAll("link")
 		.attr("d", function(d) {
 			var sx = d.source.x * 5, sy = d.source.y,
 			tx = d.target.x * 5, ty = d.target.y,
-			dx = tx - sx, dy = ty - sy,
-			dr = 2 * Math.sqrt(dx * dx + dy * dy);
+			dx = tx - sx, dy = ty - sy;
 			if (sx < tx) {
 				return "M" + (sx+2) + "," + sy + " C" + (sx+40) + "," + sy + " " + (tx-40) + "," + ty + " " + (tx-2) + "," + ty;
 			} else if (sx > tx) {
@@ -275,11 +277,7 @@ var link = svg.selectAll("link")
 			}
 		  })
 		.style("stroke", "orange")
-		.style("stroke-width", function(d) { 
-			// I'm removing all the fancy stuff set up in the above code and just giving the stroke a value of 1
-			//return d.value * 2; 
-			return 1; 
-		  })
+		.style("stroke-width", "1")
 
 		.on("mouseover", function(d) {
 
@@ -297,27 +295,33 @@ var link = svg.selectAll("link")
 				for (k = 0; k < arr.length; ++k) {
 					d3.select("#" + "station" + arr[k])
 					.style("fill", "black")
-					/*.append("text")
-			    .text(function(d, i) {   
-						return d.source.nodes[0].name;
-			    })
-			    .attr("x", function(d, i) {
-						return d.x * 5;
-			    })
-			    .attr("y", function(d, i) {
-						return d.y;
-			    })
-			    .style("font-family", "sans-serif")
-			    .style("font-size", "11px")
-			    .style("text-anchor", "middle")
-			    .style("dominant-baseline", "central")
-			    .style("pointer-events", "none")*/
-			    .style("stroke", "white");
+			    	.style("stroke", "white");
 				}
 				return "black";
 		   })
 
-			//surface tooltip with station info
+			var thisRoute = [];
+			var endPoint = [];
+
+			// first array returns first stop and all transfers in route
+			// second array returns all transfers and last stop in route
+			d3.selectAll("." + d.links[0].name).each( function(d, i){
+			  var currStation = d.source.nodes[0].name
+			  thisRoute.push(currStation)
+			  var myStation = d.target.nodes[0].name
+			  endPoint.push(myStation);
+			});
+
+			// pull out just the last stop and add to the complete route array
+			var lastStop = endPoint.pop();
+			thisRoute.push(lastStop);
+
+			// join complete route array into a sequential string to print
+			var fullRoute = thisRoute.join(" > ");
+
+				d3.select("#route")
+				  .select("#path")
+				  .text(fullRoute);
 
 		})
 		.on("mouseout", function(d) {
@@ -381,8 +385,8 @@ var link = svg.selectAll("link")
 		.on("mouseover", function(d) {
 
 			// positions the tooltip relative to the node
-			var xPosition = scaleh(21 + parseFloat(d3.select(this).attr("cx")));
-			var yPosition = scalev(10 + parseFloat(d3.select(this).attr("cy")));
+			var xPosition = parseFloat(d.x * 5.3) + 39;
+			var yPosition = 10 + parseFloat(d3.select(this).attr("cy"));
 
 			// select all links in all routes that touch the selected node
 			
