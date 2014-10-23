@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head>
     <meta http-equiv='X-UA-Compatible' content='IE=edge' />
-    <title>Real Madrid vs. Elche (1st half)</title>
+    <title>The LP - subway music</title>
 <script src="d3.min.js"></script>
 <script src="d3.rollup.v0.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -43,8 +43,8 @@
 </div>
 
 <div id="route">
-<p>Most Recent Route: <span id="path">(hover to select one!)</span></p>
-<p>Album/Playlist: <span id="album">(you gotta pick a route first...)</span></p>
+<p>Trip: <span id="path">(hover to select one!)</span></p>
+<p>Album/Playlist: <span id="album">(you gotta pick a trip first...)</span></p>
 <p>Link to Album: <span id="linky">(seriously, I'm not kidding...)</span></p>
 </div>
 
@@ -132,7 +132,59 @@
 	<p>R</p>
 </div>
 
-	<script>
+<div class="svgholder"></div>
+<div class="content">
+<div class="row">
+<h1>What is this?</h1>
+<p>My friend Kara always notices funny things in her life. The other day she mentioned that her commute to work was timed to allow for exactly one full listen to Neutral Milk Hotel's album <em>In the Aeroplane Over the Sea</em>. And then I thought, wouldn't it be funny to make some kind of website where people can time their commutes based on full-length albums? Because I commute on the subway every day. And I listen to a lot of music. And I like discovering new music. Do with this what you will.</p>
+<p>There are a lot of variables when it comes to timing a subway commute (how many people are trying to take the train, whether there are any delays, etc.), but I hope that these album suggestions at least get you most of the way through your journey.</p>
+</div>
+<div class="row">
+<h1>How Do I Use This?</h1>
+<ul>
+<li><strong>The colored lines are subway lines.</strong> Each subway line includes a bunch of stations.</li>
+<li><strong>The white dots are stations.</strong> Click one to see if there are any trips (see next bullet) that intersect with that station. Click another station to see which trips passed through <em>both</em> of those stations, and so on.</li>
+<li><strong>The orange curvy lines are trips.</strong> The trips are the whole point of this thing. Each trip is a journey someone took on the subway, during which they where able to listen to exactly one complete album (or playlist). Hover over a trip, and at the top of the screen you'll see which stations were passed through, and what album was listened to. 
+</li>
+</ul>
+</div>
+<div class="clearfix"> </div>
+<div class="row">
+<h1>Tech Stuff</h1>
+<p>This website is totally <em>not</em> responsive. Sorry. I'll figure that part out soon hopefully. I'm just not sure how to visualize the data on a phone, etc. (<a href="https://github.com/nelliemckesson/theellpee" target="_blank">suggestions welcome!</a>).</p>
+<p>I used a lot of JavaScript, specifically d3.js. I don't have a ton of experience with this stuff yet, though. Feel free to give me tips and code suggestions <a href="https://github.com/nelliemckesson/theellpee" target="_blank">over in the GitHub project.</a></p>
+</div>
+
+<div class="row fineprint">
+<h1>Fine Print</h1>
+<p>Here's some things I feel like I should say because of the internet:</p>
+<ul>
+<li>This site does not host any music or files or anything. I'm just collecting data. Anyone can follow any link that is posted and do whatever with it.</li>
+<li>I have a day job so my ability to make updates and bug fixes is limited, but I promise to do my best. <a href="https://github.com/nelliemckesson/theellpee/issues">You can report bugs or feature requests here.</a></li>
+</ul>
+</div>
+
+</div>
+
+<div class="help">
+<h1>How do I use this?</h1>
+<ul>
+<li><strong>The colored lines are subway lines.</strong> Each subway line includes a bunch of stations.</li>
+<li><strong>The white dots are stations.</strong> Click one to see if there are any trips (see next bullet) that intersect with that station. Click another station to see which trips passed through <em>both</em> of those stations, and so on.</li>
+<li><strong>The orange curvy lines are trips.</strong> The trips are the whole point of this thing. Each trip is a journey someone took on the subway, during which they where able to listen to exactly one complete album (or playlist). Hover over a trip, and at the top of the screen you'll see which stations were passed through, and what album was listened to. 
+</li>
+</ul>
+</div>
+
+<div class="footer">
+<p>All hail your fearless leader: 
+<a href="https://twitter.com/NellieMcKesson">Twitter</a> 
+<a href="http://www.linkedin.com/profile/view?id=19217535&trk=hb_tab_pro_top">LinkedIn</a>
+<a href="https://github.com/nelliemckesson">GitHub</a>
+</p>
+</div>
+
+<script>
 
     var scaleh = d3.scale.linear();
 	var scalev = d3.scale.linear();
@@ -156,7 +208,7 @@
 	
 	
 d3.xml("field.svg", function(xml) {
-	svgdom = document.body.appendChild(xml.documentElement);
+	svgdom = document.getElementsByClassName('svgholder')[0].appendChild(xml.documentElement);
 
   	var svg = d3.select("svg");
 	var defs = d3.select("defs");
@@ -563,34 +615,9 @@ var link = svg.selectAll("link")
 		    .style("stroke-opacity", "0.6")
 		    .style("pointer-events", "none");
 
-		/*svg.selectAll("textpaths")
-			.data(graph.links)
-			.enter()
-			.append("text")			
-			.style("font-size", "12px")
-			.attr("class", "texts")
-			.attr("x", "0")
-			.attr("y", "0")
-			.append("textPath")
-			.attr("class", function(d) {
-				return "pathlabel " + "from" + d.source.nodes[0].Number + " to" + d.target.nodes[0].Number;
-			})
-			.attr("xlink:href", function(d) { 
-				return '#' + "link" + "from" + d.source.nodes[0].Number + "to" + d.target.nodes[0].Number 
-			})
-			.text(function(d) { 
-				return d.value;
-			})
-			.attr("startOffset", "40%")
-			.style("stroke", "black")
-			.attr("filter","url(#f3)")
-			.style("fill", "white")
-			.style("font-family", "sans-serif")	
-			.style("display", "none");*/
-
 	});
 });
 
 </script>
-	</body>
+</body>
 </html>
