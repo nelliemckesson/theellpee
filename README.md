@@ -10,7 +10,7 @@ To do:
 * Move d3 link to external resource
 * Fix svg field sizing etc.
 * Better subway line labels? Dynamically added from json?
-* Feed json from google spreadsheet directly
+* Preload json data so the chart doesn't lag when the page loads
 * User submitted routes
 * Manipulate route data to format as required by app
 * Add a way for users to curate the submitted routes (upvotes, etc.)

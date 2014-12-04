@@ -7,6 +7,10 @@ h1, h2, p, li {
 	font-family: sans-serif;
 }
 
+.svgholder {
+	border: 1px solid black;
+}
+
 .link {
   fill: none;
   stroke: #000;
@@ -124,4 +128,5 @@ h1, h2, p, li {
 .footer {
 	text-align: center;
 	width: 100%;
+	clear: both;
 }

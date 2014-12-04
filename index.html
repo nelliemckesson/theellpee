@@ -4,6 +4,7 @@
     <title>The LP - subway music</title>
 <script src="d3.min.js"></script>
 <script src="d3.rollup.v0.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <style>
@@ -139,11 +140,11 @@
 <p>My friend Kara always notices funny things in her life. The other day she mentioned that her commute to work was timed to allow for exactly one full listen to Neutral Milk Hotel's album <em>In the Aeroplane Over the Sea</em>. And then I thought, wouldn't it be funny to make some kind of website where people can time their commutes based on full-length albums? Because I commute on the subway every day. And I listen to a lot of music. And I like discovering new music. Do with this what you will.</p>
 <p>There are a lot of variables when it comes to timing a subway commute (how many people are trying to take the train, whether there are any delays, etc.), but I hope that these album suggestions at least get you most of the way through your journey.</p>
 </div>
-<div class="row">
+<div class="row howdoiuse">
 <h1>How Do I Use This?</h1>
 <ul>
 <li><strong>The colored lines are subway lines.</strong> Each subway line includes a bunch of stations.</li>
-<li><strong>The white dots are stations.</strong> Click one to see if there are any trips (see next bullet) that intersect with that station. Click another station to see which trips passed through <em>both</em> of those stations, and so on.</li>
+<li><strong>The white dots are stations.</strong> Click one to see if there are any trips (see next bullet) that intersect with that station. Click another station to see which trips passed through <em>both</em> of those stations, and so on. Click again to unselect a station.</li>
 <li><strong>The orange curvy lines are trips.</strong> The trips are the whole point of this thing. Each trip is a journey someone took on the subway, during which they where able to listen to exactly one complete album (or playlist). Hover over a trip, and at the top of the screen you'll see which stations were passed through, and what album was listened to. 
 </li>
 </ul>
@@ -157,23 +158,13 @@
 
 <div class="row fineprint">
 <h1>Fine Print</h1>
-<p>Here's some things I feel like I should say because of the internet:</p>
+<p>Here are some things I feel like I should say because of the internet:</p>
 <ul>
 <li>This site does not host any music or files or anything. I'm just collecting data. Anyone can follow any link that is posted and do whatever with it.</li>
-<li>I have a day job so my ability to make updates and bug fixes is limited, but I promise to do my best. <a href="https://github.com/nelliemckesson/theellpee/issues">You can report bugs or feature requests here.</a></li>
+<li>I have a day job so my ability to make updates and bug fixes is limited, but I promise to do my best. <a href="https://github.com/nelliemckesson/theellpee/issues">You can submit bug reports or feature requests here.</a></li>
 </ul>
 </div>
 
-</div>
-
-<div class="help">
-<h1>How do I use this?</h1>
-<ul>
-<li><strong>The colored lines are subway lines.</strong> Each subway line includes a bunch of stations.</li>
-<li><strong>The white dots are stations.</strong> Click one to see if there are any trips (see next bullet) that intersect with that station. Click another station to see which trips passed through <em>both</em> of those stations, and so on.</li>
-<li><strong>The orange curvy lines are trips.</strong> The trips are the whole point of this thing. Each trip is a journey someone took on the subway, during which they where able to listen to exactly one complete album (or playlist). Hover over a trip, and at the top of the screen you'll see which stations were passed through, and what album was listened to. 
-</li>
-</ul>
 </div>
 
 <div class="footer">
@@ -185,8 +176,9 @@
 </div>
 
 <script>
+	sourcedata = "https://script.google.com/macros/s/AKfycbw2HD7j_gy7M4CeWKiR3X-mA0wDooeZe6mc8N6axhOpDofyrTqo/exec?id=14sE-eZ8pTZe57q--HOTPJqjHYag0fWiN3Ba7YvxQ290";
 
-    var scaleh = d3.scale.linear();
+  var scaleh = d3.scale.linear();
 	var scalev = d3.scale.linear();
 	var width = 1150,
 	height = 1200;
@@ -210,7 +202,7 @@
 d3.xml("field.svg", function(xml) {
 	svgdom = document.getElementsByClassName('svgholder')[0].appendChild(xml.documentElement);
 
-  	var svg = d3.select("svg");
+  var svg = d3.select("svg");
 	var defs = d3.select("defs");
 
 	
@@ -220,7 +212,7 @@ d3.xml("field.svg", function(xml) {
 	scalev.range([0, 1268]);
   
 
-d3.json("players.json", function(json) {
+d3.json(sourcedata, function(json) {
 
 	datap = json.nodes;
 
