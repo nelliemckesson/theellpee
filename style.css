@@ -8,7 +8,7 @@ h1, h2, p, li {
 }
 
 .svgholder {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 .link {
@@ -28,7 +28,7 @@ h1, h2, p, li {
 }
 
 .first {
-	margin-left: 64px;
+	margin-left: 38px;
 }
 
 .label p {
@@ -121,7 +121,7 @@ h1, h2, p, li {
 	clear: both;
 }
 
-.fineprint p, .fineprint li, .footer p {
+/*.fineprint p, .fineprint li, */.footer p {
 	font-size: 0.7em;
 }
 

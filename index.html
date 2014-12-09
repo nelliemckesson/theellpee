@@ -10,11 +10,11 @@
 <style>
 #tooltip {
         position: absolute;
-        width: 150px;
+        width: 200px;
         height: auto;
         padding: 5px;
         background-color: white;
-		opacity: 0.8;
+		opacity: 0.9;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
@@ -31,6 +31,7 @@
 #tooltip p {
         margin: 0;
         font-family: sans-serif;
+        font-weight: bold;
         font-size: 12px;
         line-height: 16px;
 }
@@ -154,6 +155,7 @@
 <h1>Tech Stuff</h1>
 <p>This website is totally <em>not</em> responsive. Sorry. I'll figure that part out soon hopefully. I'm just not sure how to visualize the data on a phone, etc. (<a href="https://github.com/nelliemckesson/theellpee" target="_blank">suggestions welcome!</a>).</p>
 <p>I used a lot of JavaScript, specifically d3.js. I don't have a ton of experience with this stuff yet, though. Feel free to give me tips and code suggestions <a href="https://github.com/nelliemckesson/theellpee" target="_blank">over in the GitHub project.</a></p>
+<p>I didn't want to deal with setting up a database, so the data is all being fed from a google spreadsheet. This means there can sometimes be a lag while the data is loading. It also means it may take a minute for new trips to show up (since the data gets sent from here to Google, and then back from Google to here).</p>
 </div>
 
 <div class="row fineprint">
@@ -448,8 +450,9 @@ var link = svg.selectAll("link")
 		.on("mouseover", function(d) {
 
 			// positions the tooltip relative to the node
-			var xPosition = parseFloat(d.x * 5.3) + 39;
-			var yPosition = 10 + parseFloat(d3.select(this).attr("cy"));
+			var xPosition = (d.x * 5.29) + 53;
+			var yPosition = 135 + (d.y * 1.05);
+			//var yPosition = 10 + parseFloat(d3.select(this).attr("cy"));
 
 			d3.select(this)
 			.style("stroke", "white")
@@ -570,19 +573,6 @@ var link = svg.selectAll("link")
 			d3.selectAll(".inactive")
 			.style("fill", "white")
 			.style("stroke", "gray");
-			
-			// pop up s station-info tooltip for clicked node - is this necessary?
-			d3.select("#tooltip")
-			  .style("left", xPosition + "px")
-			  .style("top", yPosition + "px")
-			  .select("#name")
-			  .text(d.nodes[0].name);
-			 
-			d3.select("#tooltip") 
-			  .select("#number")
-			  .text(d.nodes[0].Line);
-
-			d3.select("#tooltip").classed("hidden", false);
 			   
 		});
 
