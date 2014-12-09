@@ -183,7 +183,8 @@
 </div>
 
 <script>
-	sourcedata = "https://script.google.com/macros/s/AKfycbw2HD7j_gy7M4CeWKiR3X-mA0wDooeZe6mc8N6axhOpDofyrTqo/exec?id=14sE-eZ8pTZe57q--HOTPJqjHYag0fWiN3Ba7YvxQ290";
+  // feeding our data from the google spreadsheet
+  sourcedata = "https://script.google.com/macros/s/AKfycbw2HD7j_gy7M4CeWKiR3X-mA0wDooeZe6mc8N6axhOpDofyrTqo/exec?id=14sE-eZ8pTZe57q--HOTPJqjHYag0fWiN3Ba7YvxQ290";
 
   var scaleh = d3.scale.linear();
 	var scalev = d3.scale.linear();
@@ -199,18 +200,12 @@
 	var rollup = d3.rollup()
     .x(function(d) { return fx(d); })
     .y(function(d) { return fy(d); });
-
-	//var svg;
-	//http://localhost:8000/
-	// How to convert the data?? google script maybe?
-	
-	
 	
 d3.xml("field.svg", function(xml) {
 	svgdom = document.getElementsByClassName('svgholder')[0].appendChild(xml.documentElement);
 
   var svg = d3.select("svg");
-	var defs = d3.select("defs");
+  var defs = d3.select("defs");
 
 	
 	scaleh.domain([0, width]);
@@ -221,12 +216,6 @@ d3.xml("field.svg", function(xml) {
 
 d3.json(sourcedata, function(json) {
 
-	datap = json.nodes;
-
-//filters data set for only starting players
-	var datap_start = datap;
-
-	json.nodes = datap_start;
 	var graph = rollup(json);		
 
 	var color = d3.scale.category20();
