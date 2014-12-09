@@ -231,6 +231,8 @@ d3.json(sourcedata, function(json) {
 
 	var color = d3.scale.category20();
 
+	var linkcolor = "#FF0066";
+
 // Creating the route paths
 
 var link = svg.selectAll("link")
@@ -263,7 +265,7 @@ var link = svg.selectAll("link")
 				return "M" + (sx+2) + "," + sy + " C" + (sx+40) + "," + sy + " " + (tx+40) + "," + ty + " " + (tx+2) + "," + ty;
 			}
 		  })
-		.style("stroke", "#FF0066")
+		.style("stroke", linkcolor)
 		.style("stroke-width", "1")
 		.style("stroke-opacity", "0.6")
 
@@ -400,9 +402,9 @@ var link = svg.selectAll("link")
 				if (currStatus != null && currStatus.indexOf("activeroute") >= 0) {
 				return "black";
 				} else if (currStatus != null && currStatus.indexOf("activeroute") <= 0) {
-				return "#FF0066";
+				return linkcolor;
 				} else {
-				return "#FF0066";
+				return linkcolor;
 				}
 			})
 			.style("stroke-width", function(d) {
@@ -564,7 +566,7 @@ var link = svg.selectAll("link")
 			d3.selectAll('[data-status="inactive"]').select("path")
 			.transition()
 			.duration(10)
-			.style("stroke", "orange")
+			.style("stroke", linkcolor)
 			.style("display", "block")
 			.style("stroke-opacity", "1")
 			.style("stroke-width", "1")
