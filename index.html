@@ -39,6 +39,10 @@
 </style>
 
 <body>
+<div class="header">
+<h1>LP: Find an album that fits your commute</h1>
+</div>
+
 <div id="tooltip" class="hidden">
         <p><span id="name">100</span></p>
 		<p><span id="number">100</span> train</p>
@@ -46,8 +50,8 @@
 
 <div id="route">
 <p>Trip: <span id="path">(hover to select one!)</span></p>
-<p>Album/Playlist: <span id="album">(you gotta pick a trip first...)</span></p>
-<p>Link to Album: <span id="linky">(seriously, I'm not kidding...)</span></p>
+<p>Album/Playlist: <span id="album">(you need to pick a trip first...)</span></p>
+<p>Listen here: <span id="linky">(seriously, I'm not kidding...)</span></p>
 </div>
 
 <div class="label linered first">
@@ -138,8 +142,8 @@
 <div class="content">
 <div class="row">
 <h1>What is this?</h1>
-<p>My friend Kara always notices funny things in her life. The other day she mentioned that her commute to work was timed to allow for exactly one full listen to Neutral Milk Hotel's album <em>In the Aeroplane Over the Sea</em>. And then I thought, wouldn't it be funny to make some kind of website where people can time their commutes based on full-length albums? Because I commute on the subway every day. And I listen to a lot of music. And I like discovering new music. Do with this what you will.</p>
-<p>There are a lot of variables when it comes to timing a subway commute (how many people are trying to take the train, whether there are any delays, etc.), but I hope that these album suggestions at least get you most of the way through your journey.</p>
+<p>My friend Kara always notices funny things in her life. A little while ago she mentioned that her commute to work was timed to allow for exactly one full listen to Neutral Milk Hotel's album <em>In the Aeroplane Over the Sea</em>. And then I thought, wouldn't it be funny to make some kind of website where people can time their commutes based on full-length albums? Because I commute on the subway every day. And I listen to a lot of music. And I like discovering new music. Do with this what you will.</p>
+<p>There are a lot of variables when it comes to timing a subway commute (how many people are trying to take the train, whether there are any delays, etc.), so this is really just going to be an approximation, but I hope that these album suggestions at least get you most of the way through your journey.</p>
 </div>
 <div class="row howdoiuse">
 <h1>How Do I Use This?</h1>
@@ -155,13 +159,14 @@
 <h1>Tech Stuff</h1>
 <p>This website is totally <em>not</em> responsive. Sorry. I'll figure that part out soon hopefully. I'm just not sure how to visualize the data on a phone, etc. (<a href="https://github.com/nelliemckesson/theellpee" target="_blank">suggestions welcome!</a>).</p>
 <p>I used a lot of JavaScript, specifically d3.js. I don't have a ton of experience with this stuff yet, though. Feel free to give me tips and code suggestions <a href="https://github.com/nelliemckesson/theellpee" target="_blank">over in the GitHub project.</a></p>
-<p>I didn't want to deal with setting up a database, so the data is all being fed from a google spreadsheet. This means there can sometimes be a lag while the data is loading. It also means it may take a minute for new trips to show up (since the data gets sent from here to Google, and then back from Google to here).</p>
+<p>I didn't want to deal with setting up a database, so the data is all being fed from a Google spreadsheet. This means there can sometimes be a lag while the data is loading. It also means it may take a minute for new trips to show up (since the data gets sent from here to Google, and then back from Google to here).</p>
 </div>
 
 <div class="row fineprint">
 <h1>Fine Print</h1>
 <p>Here are some things I feel like I should say because of the internet:</p>
 <ul>
+<li>Right now LP only supports the New York subway system, but I'd like to add other cities. <a href="https://github.com/nelliemckesson/theellpee/issues">Feel free to request support for your city here.</a>
 <li>This site does not host any music or files or anything. I'm just collecting data. Anyone can follow any link that is posted and do whatever with it.</li>
 <li>I have a day job so my ability to make updates and bug fixes is limited, but I promise to do my best. <a href="https://github.com/nelliemckesson/theellpee/issues">You can submit bug reports or feature requests here.</a></li>
 </ul>
@@ -170,7 +175,7 @@
 </div>
 
 <div class="footer">
-<p>All hail your fearless leader: 
+<p>Here are some places I digitally exist: 
 <a href="https://twitter.com/NellieMcKesson">Twitter</a> 
 <a href="http://www.linkedin.com/profile/view?id=19217535&trk=hb_tab_pro_top">LinkedIn</a>
 <a href="https://github.com/nelliemckesson">GitHub</a>
@@ -258,8 +263,9 @@ var link = svg.selectAll("link")
 				return "M" + (sx+2) + "," + sy + " C" + (sx+40) + "," + sy + " " + (tx+40) + "," + ty + " " + (tx+2) + "," + ty;
 			}
 		  })
-		.style("stroke", "orange")
+		.style("stroke", "#FF0066")
 		.style("stroke-width", "1")
+		.style("stroke-opacity", "0.6")
 
 		.on("mouseover", function(d) {
 
@@ -394,9 +400,9 @@ var link = svg.selectAll("link")
 				if (currStatus != null && currStatus.indexOf("activeroute") >= 0) {
 				return "black";
 				} else if (currStatus != null && currStatus.indexOf("activeroute") <= 0) {
-				return "orange";
+				return "#FF0066";
 				} else {
-				return "orange";
+				return "#FF0066";
 				}
 			})
 			.style("stroke-width", function(d) {
@@ -450,8 +456,8 @@ var link = svg.selectAll("link")
 		.on("mouseover", function(d) {
 
 			// positions the tooltip relative to the node
-			var xPosition = (d.x * 5.29) + 53;
-			var yPosition = 135 + (d.y * 1.05);
+			var xPosition = (d.x * 5.29) + 62;
+			var yPosition = 185 + (d.y * 1.05);
 			//var yPosition = 10 + parseFloat(d3.select(this).attr("cy"));
 
 			d3.select(this)
@@ -573,7 +579,7 @@ var link = svg.selectAll("link")
 			d3.selectAll(".inactive")
 			.style("fill", "white")
 			.style("stroke", "gray");
-			   
+
 		});
 
 		// append shortened station name to right of node

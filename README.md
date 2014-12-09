@@ -13,6 +13,7 @@ To do:
 * User submitted routes
 * Manipulate route data to format as required by app
 * Add a way for users to curate the submitted routes (upvotes, etc.)
+* Add support for multiple albums per trip
 * Design or something
 * Write copy
 
